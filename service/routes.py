@@ -1,4 +1,4 @@
-from flask import Blueprint
+from fastapi import APIRouter
 
 from service.api.about import about
 from service.api.image import image
@@ -6,10 +6,10 @@ from service.api.random import random_beer
 from service.api.beer import beer
 from service.api.beers import beers
 
-api_routes = Blueprint('api', __name__)
+api_router = APIRouter()
 
-api_routes.route('/img/<path:filename>', methods=['GET'])(image)
-api_routes.route('/random', methods=['GET'])(random_beer)
-api_routes.route('/beer', methods=['GET'])(beer)
-api_routes.route('/beers', methods=['GET'])(beers)
-api_routes.route('/', methods=['GET'])(about)
+api_router.get("/img/{filename:path}")(image)
+api_router.get("/random")(random_beer)
+api_router.get("/beer")(beer)
+api_router.get("/beers")(beers)
+api_router.get("/")(about)

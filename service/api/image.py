@@ -1,20 +1,30 @@
-from flask import send_from_directory, jsonify
+from fastapi import HTTPException, Path
+from fastapi.responses import FileResponse
+import os
 
 ALLOWED_EXTENSIONS = {'png'}
 IMAGE_FOLDER = 'images'
 
-
-def allowed_file(filename):
+def allowed_file(filename: str) -> bool:
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-def image(filename):
+async def image(filename: str = Path(...)):
     if not allowed_file(filename):
-        return jsonify({
-            "error": "Invalid file extension",
-            "message": f"Image extension should be .png"
-        }), 400
-
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "error": "Invalid file extension",
+                "message": "Image extension should be .png"
+            }
+        )
     print(f"API – /images/{{filename}} – {filename}")
-    return send_from_directory(IMAGE_FOLDER, filename), 200
 
+    file_path = os.path.join(IMAGE_FOLDER, filename)
+    if not os.path.exists(file_path):
+        raise HTTPException(
+            status_code=404,
+            detail={"error": "File not found"}
+        )
+
+    return FileResponse(file_path)

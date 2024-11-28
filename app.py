@@ -1,48 +1,43 @@
-from flask import Flask, jsonify
-from flask_cors import CORS
-from flask_restful import Api
-from werkzeug.exceptions import HTTPException
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 
-from service.routes import api_routes
+from service.routes import api_router
 
+app = FastAPI()
 
-cors_options = {
-    "origins": "*",
-    "supports_credentials": True,
-    "expose_headers": [
-        'x-ratelimit-limit',
-        'x-ratelimit-remaining',
-        'content-length',
-        'origin',
-        'content-type',
-        'accept'
-    ]
-}
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # разрешаем все источники
+    allow_methods=["GET"], # разрешаем только метод GET
+    allow_headers=["*"], # разрешаем все заголовки
+)
 
-app = Flask(__name__)
-app.json.sort_keys = False
-api = Api(app)
-CORS(app, **cors_options)
+app.include_router(api_router, prefix="/v3")
 
 
-app.register_blueprint(api_routes, url_prefix='/v3')
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc: HTTPException):
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "error": "HTTP Error",
+            "message": exc.detail,
+        },
+    )
 
 
-@app.errorhandler(Exception)
-def handle_exception(e):
-    # Если это стандартная ошибка HTTP, возвращаем её
-    if isinstance(e, HTTPException):
-        return jsonify({
-            "error": e.name,
-            "message": e.description
-        }), e.code
-
-    # В противном случае возвращаем 500 с сообщением об ошибке
-    return jsonify({
-        "error": "Internal Server Error",
-        "message": str(e)
-    }), 500
+@app.exception_handler(Exception)
+async def general_exception_handler(request: Request, exc: Exception):
+    return JSONResponse(
+        status_code=500,
+        content={
+            "error": "Internal Server Error",
+            "message": str(exc),
+        },
+    )
 
 
-if __name__ == '__main__':
-    app.run(host='localhost', port=5000, debug=True)
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="localhost", port=5000, log_level="debug")
