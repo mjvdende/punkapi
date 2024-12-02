@@ -3,7 +3,7 @@ from fastapi.responses import FileResponse
 import os
 
 ALLOWED_EXTENSIONS = {'png'}
-IMAGE_FOLDER = 'images'
+IMAGE_FOLDER = 'img'
 
 def allowed_file(filename: str) -> bool:
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -18,7 +18,7 @@ async def image(filename: str = Path(...)):
                 "message": "Image extension should be .png"
             }
         )
-    print(f"API – /images/{{filename}} – {filename}")
+    print(f"API – /img/{{filename}} – {filename}")
 
     file_path = os.path.join(IMAGE_FOLDER, filename)
     if not os.path.exists(file_path):

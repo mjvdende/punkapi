@@ -1,7 +1,7 @@
 import random
 from typing import Optional, Dict, List
 
-from data.database import get_db, get_short_db
+from db.database import get_db, get_short_db
 from repository.dao.dao import get_beer_by_id, get_beers_with_options
 
 full_db = get_db()
