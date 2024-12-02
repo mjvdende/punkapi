@@ -1,10 +1,10 @@
 {
   "id": 309,
-  "name": "Paradox Islay 2018",
+  "name": "Paradox Grain 2018",
   "tagline": "Whisky Cask Aged Imperial Stout.",
   "first_brewed": "2018",
   "description": "Our longest running beer series, Paradox sees us ageing an Imperial Stout in different types of cask. This one showcases grain whisky.",
-  "image": null,
+  "image": "309.png",
   "abv": 13.5,
   "ibu": 100,
   "target_fg": 1015,
