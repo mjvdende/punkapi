@@ -1,0 +1,89 @@
+{
+  "id": 364,
+  "name": "Raspberry Blitz",
+  "tagline": "Alcohol Free Sour.",
+  "first_brewed": "2018",
+  "description": "One of our longest running brews returned as a brand new take on a fruity kettle sour. Inspired by our old favourite Berliner Weisse Raspberry Blitz, and using our recent Raspberry Popsicle Parade as a testing ground, this is an alcohol free Berliner Weisse, jam-packed with fruit flavour.",
+  "image": "364.png",
+  "abv": 0.5,
+  "ibu": 10,
+  "target_fg": 1008,
+  "target_og": 1011.5,
+  "ebc": 3,
+  "srm": 2,
+  "ph": 3.8,
+  "attenuation_level": 30,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 62,
+          "unit": "celsius"
+        },
+        "duration": 20
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Raspberry Juice: 4kg FV Addition, Lactic Acid: 25g FV Addition, Malic Acid: 4g FV Addition"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 0.1,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.1,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carapils Malt",
+        "amount": {
+          "value": 0.13,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.15,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "HD1",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Balsamic Glazed Chicken", "Brie and Goats Cheese Topped Pizza", "White Chocolate Cookies"],
+  "brewers_tips": "For extra body, add a little milk sugars (lactose) to the brew.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

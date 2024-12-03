@@ -1,0 +1,119 @@
+{
+  "id": 402,
+  "name": "Baltic Bandit",
+  "tagline": "Baltic Porter.",
+  "first_brewed": "2019",
+  "description": "Slip anchor and set sail with this silky smooth porter. Toffee and chocolate on the nose. Delivering a rich and chewy decadent cargo. Melted caramel and dark chocolate layer onto a rich dark oaky hull.",
+  "image": "402.png",
+  "abv": 6.5,
+  "ibu": 10,
+  "target_fg": 1010,
+  "target_og": 1060,
+  "ebc": 145,
+  "srm": 74,
+  "ph": 4.4,
+  "attenuation_level": 83,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 85
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 12,
+        "unit": "celsius"
+      }
+    },
+    "twist": "French Oak Chips: 50g FV Addition"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 3.0,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Vienna Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Amber Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 3",
+        "amount": {
+          "value": 0.06,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Tettnang",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "W34/70"
+  },
+  "food_pairing": ["Spicy BBQ Seitan", "Aged Gouda", "Pecan Pie"],
+  "brewers_tips": "Mash in at a higher temperature to leave more unfermentable sugars in the wort. This gives the beer a sweeter porter profile.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

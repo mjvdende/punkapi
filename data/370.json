@@ -1,0 +1,104 @@
+{
+  "id": 370,
+  "name": "Brutalist (Fanzine)",
+  "tagline": "Brut India Pale Ale.",
+  "first_brewed": "2018",
+  "description": "Our first Brut IPA brewed in Ellon, for Fanzine. A bone dry, tropical, Sauvignon-like IPA, with a champagne-like body, exceptionally dry and effervescent.",
+  "image": "370.png",
+  "abv": 6.0,
+  "ibu": 20,
+  "target_fg": 1000,
+  "target_og": 1048,
+  "ebc": 9,
+  "srm": 5,
+  "ph": 4.4,
+  "attenuation_level": 100,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Amyloglucosidase: 10g, Dextrose: 240g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 3.96,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 5,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Ariana",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Salt + Pepper Tofu", "Melon Fruit Salad", "Oysters"],
+  "brewers_tips": "Pay special attention to that initial low mash temperature in order to get the body right on the final beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

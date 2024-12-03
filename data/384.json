@@ -1,0 +1,129 @@
+{
+  "id": 384,
+  "name": "Clouded Clarity (Fanzine)",
+  "tagline": "Hazy Lager.",
+  "first_brewed": "2018",
+  "description": "An exploration around lager style brewed for our Fanzine subscribers.",
+  "image": "384.png",
+  "abv": 4.2,
+  "ibu": 25,
+  "target_fg": 1010,
+  "target_og": 1042,
+  "ebc": 8,
+  "srm": 4,
+  "ph": 4.4,
+  "attenuation_level": 76,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 66,
+          "unit": "celsius"
+        },
+        "duration": 65
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 10,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Pectin Powder: 2g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 3.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Raw Wheat",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe CO2 Extract",
+        "amount": {
+          "value": 2,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "German Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Saaz",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "German Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Saaz",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "W34/70"
+  },
+  "food_pairing": ["Parma Ham", "Clam Linguine", "Caesar Salad"],
+  "brewers_tips": "Wheat adds protein which is essential for haze forming compounds.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

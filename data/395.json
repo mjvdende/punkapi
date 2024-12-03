@@ -1,18 +1,18 @@
 {
-  "id": 303,
-  "name": "Hazy Jane (Rye Barrel-Aged)",
-  "tagline": "Bourbon Barrel Vermont IPA.",
-  "first_brewed": "2018",
-  "description": "A draft-only BrewDog bar exclusive; we have experimented with ageing our Vermount IPA for a short time in bourbon and rye barrels, both known for imparting flavour quickly compared to other types of barrel.",
-  "image": "keg.png",
-  "abv": 7.2,
+  "id": 395,
+  "name": "Two Way Street (BD vs Brygghuset Finn)",
+  "tagline": "New England IPA.",
+  "first_brewed": "2019",
+  "description": "A collaboration beer created for the Malmö beer and whisky festival in March. When deciding how best to celebrate this opportunity, we agreed to collaborate with one of Malmö's own, Brygghuset Finn - an award winning brewery that works according to traditional craft methods combined with innovative engineering skills.",
+  "image": "395.png",
+  "abv": 5.5,
   "ibu": 30,
-  "target_fg": 1009,
-  "target_og": 1065,
+  "target_fg": 1010,
+  "target_og": 1052,
   "ebc": 15,
   "srm": 8,
   "ph": 4.2,
-  "attenuation_level": 86,
+  "attenuation_level": 81,
   "volume": {
     "value": 20,
     "unit": "litres"
@@ -25,10 +25,10 @@
     "mash_temp": [
       {
         "temp": {
-          "value": 66,
+          "value": 0,
           "unit": "celsius"
         },
-        "duration": 25
+        "duration": 15
       }
     ],
     "fermentation": {
@@ -37,35 +37,28 @@
         "unit": "celsius"
       }
     },
-    "twist": null
+    "twist": "Pectin Powder: 2g"
   },
   "ingredients": {
     "malt": [
       {
         "name": "Pale Ale",
         "amount": {
-          "value": 3.96,
+          "value": 3.48,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Maris Otter",
+        "name": "Wheat Malt",
         "amount": {
-          "value": 0.96,
+          "value": 0.72,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Wheat",
+        "name": "Flaked Oat Malt ",
         "amount": {
-          "value": 0.6,
-          "unit": "kilograms"
-        }
-      },
-      {
-        "name": "Flaked Oats",
-        "amount": {
-          "value": 0.24,
+          "value": 0.48,
           "unit": "kilograms"
         }
       }
@@ -83,7 +76,7 @@
       {
         "name": "Chinook",
         "amount": {
-          "value": 20,
+          "value": 10,
           "unit": "grams"
         },
         "add": "0",
@@ -92,7 +85,7 @@
       {
         "name": "Amarillo",
         "amount": {
-          "value": 20,
+          "value": 10,
           "unit": "grams"
         },
         "add": "0",
@@ -101,7 +94,16 @@
       {
         "name": "Simcoe",
         "amount": {
-          "value": 20,
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 10,
           "unit": "grams"
         },
         "add": "0",
@@ -142,24 +144,11 @@
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
-      },
-      {
-        "name": "American Oak Wood- chip medium toast, Ageing soaked in Rye Whisky",
-        "amount": {
-          "value": 50,
-          "unit": "grams"
-        },
-        "add": "Dry Hop",
-        "attribute": "Wood Ageing"
       }
     ],
-    "yeast": "Wyeast 1056 - American Ale™"
+    "yeast": "Wyeast 1272"
   },
-  "food_pairing": [
-    "Chickpea curry",
-    "Pork fajitas (with the works!)",
-    "Orange and carrot cake with orange cream cheese icing"
-  ],
-  "brewers_tips": "Avoid any oxygen uptake! It will oxidise the delicate hop flavours during the ageing period. Purge your barrel/ageing vessel with CO2 and seal it airtight.",
-  "contributed_by": "John Jenkman <johnjenkman>"
+  "food_pairing": ["Scallops with Apricot Salsa", "Lemon Thyme Roasted Chicken", "Raspberry Cheesecake with Mango Sorbet"],
+  "brewers_tips": "Don't cool the beer too cold after fermentation or you will loose the haze, 3°C should do.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
 }

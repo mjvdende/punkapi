@@ -1,0 +1,96 @@
+{
+  "id": 345,
+  "name": "Vinyl Vigilante (Fanzine)",
+  "tagline": "Coffee Milk Stout.",
+  "first_brewed": "2018",
+  "description": "A Fanzine release, alongside the international draft exclusive. Vinyl Vigilante is a Coffee Milk Stout, taking the coffee flavours already present in dark ales and enhancing them.",
+  "image": "345.png",
+  "abv": 7.0,
+  "ibu": 10,
+  "target_fg": 1019,
+  "target_og": 1071,
+  "ebc": 150,
+  "srm": 76,
+  "ph": 4.4,
+  "attenuation_level": 73,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 70
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Cold Brew Coffee: 100g Dry Hop, Milk Sugars (Lactose): 480g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner",
+        "amount": {
+          "value": 4.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons DRC",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Magnum",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Beef Rendang", "Profiteroles", "Shortbread"],
+  "brewers_tips": "Use freshly ground coffee for the best aromatic hit. Consider the addition of cold brew coffee into the secondary. This will give a big coffee flavour but not impart any of the astringent bitterness of over extracted coffee, just be careful not to add too much and dilute the beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

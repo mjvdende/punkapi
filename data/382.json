@@ -1,0 +1,114 @@
+{
+  "id": 382,
+  "name": "Mistletoe Mafia",
+  "tagline": "Toasty Amber Lager.",
+  "first_brewed": "2018",
+  "description": "An easy-going Vienna style lager, packed with complex yet subtle malt flavours, at sessionable strength. Available for the Festive period only.",
+  "image": "382.png",
+  "abv": 4.5,
+  "ibu": 25,
+  "target_fg": 1009,
+  "target_og": 1044,
+  "ebc": 15,
+  "srm": 8,
+  "ph": 4.2,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 67,
+          "unit": "celsius"
+        },
+        "duration": 85
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 10,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner",
+        "amount": {
+          "value": 1.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Vienna",
+        "amount": {
+          "value": 1.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt Type 2",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carahell Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "CaraRed Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Mandarina Bavaria",
+        "amount": {
+          "value": 5,
+          "unit": "grams"
+        },
+        "add": "65",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Tettnang",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "W34/70"
+  },
+  "food_pairing": ["Sausages with Marmalade", "Roast Chicken", "Mac 'n' Cheese with Crispy Pancetta"],
+  "brewers_tips": "Condition for up to a month at 1°C for best results.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

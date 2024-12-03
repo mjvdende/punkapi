@@ -1,0 +1,162 @@
+{
+  "id": 398,
+  "name": "Deep Slumber (BrewDog vs Buxton)",
+  "tagline": "Rye Porter.",
+  "first_brewed": "2019",
+  "description": "A collaboration beer brewed with Buxton Brewery. The second collaboration brew of the year!",
+  "image": "398.png",
+  "abv": 8.5,
+  "ibu": 50,
+  "target_fg": 1012,
+  "target_og": 1080,
+  "ebc": 220,
+  "srm": 112,
+  "ph": 4.2,
+  "attenuation_level": 85,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 50
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.08,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Rye Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dry Malt Extract",
+        "amount": {
+          "value": 0.3,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Fuggles",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Vintage Cheddar and Chutney", "Beef Bourguignon", "Apple Crumble with a Madagascan Vanilla Ice Cream"],
+  "brewers_tips": "Rye can cause run off problems. Try to reach a temperature of 78°C if possible, and sparge at the same temperature.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

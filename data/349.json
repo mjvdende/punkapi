@@ -1,0 +1,134 @@
+{
+  "id": 349,
+  "name": "Pulp Patriot V2 Double Dry-Hop (Fanzine)",
+  "tagline": "Double Dry-Hopped Milkshake IPA.",
+  "first_brewed": "2018",
+  "description": "A double dry hopped edition of our recent milkshake IPAs, this fruited NEIPA combines peach, mango and milk sugar with low bitterness and extreme dry hopping rates.",
+  "image": "349.png",
+  "abv": 9.5,
+  "ibu": 10,
+  "target_fg": 1018,
+  "target_og": 1095,
+  "ebc": 15,
+  "srm": 8,
+  "ph": 4.4,
+  "attenuation_level": 81,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 46
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Peach Juice Concentrate: 250g, Mango Concentrate: 250g, Milk Sugars (Lactose): 400g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.28,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dry Malt Extract",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "WHP",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "WHP",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "WHP",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 6",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Keen's Cheddar", "Green Mango Chutney", "Orange Pound Cake"],
+  "brewers_tips": "Depending on the yeast strain and hops you’re using, you can benefit from the effect of “biotransformation” by dry hopping before the primary fermentation is finished. Some yeasts are capable of extracting extra flavours from the hops. The earlier you dry hop in the fermentation process, the more flavour is extracted from the hops through the process of biotransformation, however at the same time more flavour also disappears again through the stripping effect of the generated CO2. A good balance is to add the hops just before primary fermentation is finished.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

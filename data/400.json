@@ -1,0 +1,128 @@
+{
+  "id": 400,
+  "name": "Dog H",
+  "tagline": "12th Anniversary Imperial Stout.",
+  "first_brewed": "2019",
+  "description": "Dog H is our liquid milestone, brewed to celebrate our twelfth anniversary. So what else could we do but turn it up to that number?",
+  "image": "400.png",
+  "abv": 15.5,
+  "ibu": 90,
+  "target_fg": 1020,
+  "target_og": 1120,
+  "ebc": 300,
+  "srm": 152,
+  "ph": 4.2,
+  "attenuation_level": 83,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 115
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Dextrose: 1.2kg Dry Hop, Coffee: 40g Dry Hop, Cocoa Nibs: 40g Dry Hop, Habanero Powder: 1g Dry Hop, Cognac Soaked Oak Chips: 200g FV Addition"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 7.68,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.84,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Rye Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "75",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Fuggles",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Fuggles",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Roquefort", "Venison and Mushroom Stroganoff", "Orange Dark Chocolate"],
+  "brewers_tips": "For this beer to be successful a few key points need to be followed. The first is picking the correct yeast strain, one that is known to be able to have high alcohol tolerance. The second is that by starting the brew with all the sugar necessary to gain +12% beers subjects the yeast to high osmotic stress and will hinder fermentation, so it is best to start with wort just over 1.100. And finally once fermentation has decreased and moving approximately 1SG point per 24hrs, it is time to start adding dextrose to achieve target ABV.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

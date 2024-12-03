@@ -1,0 +1,170 @@
+{
+  "id": 346,
+  "name": "Jet Trash V2 (Fanzine)",
+  "tagline": "West Coast IPA.",
+  "first_brewed": "2018",
+  "description": "A double dry hopped edition of our 6.9% ABV west coast IPA, Jet Trash. It’s the second version of one of our core Fanzine beers, and will continue to feature evolving editions.",
+  "image": "346.png",
+  "abv": 6.9,
+  "ibu": 65,
+  "target_fg": 1006,
+  "target_og": 1061,
+  "ebc": 18,
+  "srm": 9,
+  "ph": 4.6,
+  "attenuation_level": 90,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Dextrose: 120g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dextrin Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "CaraRed Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe CO2 Extract",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 6",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 6",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Salmon and Avocado Tostadas", "Carrot Cake with Orange, Pistachio and Pomegranate", "Blueberry and Lemon Trifle"],
+  "brewers_tips": "Allow for 36 to 48 hours for the initial dry hop before adding the second dry hop addition.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

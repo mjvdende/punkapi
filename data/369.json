@@ -1,0 +1,143 @@
+{
+  "id": 369,
+  "name": "Mind Game (Fanzine)",
+  "tagline": "West Coast IPA.",
+  "first_brewed": "2018",
+  "description": "A west coast IPA, with old school US hops, squeezed for all they’re worth – this Fanzine edition sees us cram some of the longest standing US hops into a light and punchy IPA.",
+  "image": "369.png",
+  "abv": 6.9,
+  "ibu": 10,
+  "target_fg": 1006,
+  "target_og": 1061,
+  "ebc": 18,
+  "srm": 9,
+  "ph": 4.6,
+  "attenuation_level": 90,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Dextrose: 120g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dextrin Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "CaraRed Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe CO2 Extract",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Seared Ahi-Tuna Steaks", "Southern Fried Chicken", "Lemon Meringue Pie"],
+  "brewers_tips": "Be careful to use fresh hops for dry hopping.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

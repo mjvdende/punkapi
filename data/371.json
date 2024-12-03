@@ -1,18 +1,18 @@
 {
-  "id": 303,
-  "name": "Hazy Jane (Rye Barrel-Aged)",
-  "tagline": "Bourbon Barrel Vermont IPA.",
+  "id": 371,
+  "name": "Flux Factory (Fanzine)",
+  "tagline": "West Coast IPA.",
   "first_brewed": "2018",
-  "description": "A draft-only BrewDog bar exclusive; we have experimented with ageing our Vermount IPA for a short time in bourbon and rye barrels, both known for imparting flavour quickly compared to other types of barrel.",
-  "image": "keg.png",
-  "abv": 7.2,
-  "ibu": 30,
-  "target_fg": 1009,
-  "target_og": 1065,
-  "ebc": 15,
-  "srm": 8,
-  "ph": 4.2,
-  "attenuation_level": 86,
+  "description": "A Fanzine West Coast IPA, heavily whirlpool and dry hopped, and with lower than normal kettle hopping.",
+  "image": "371.png",
+  "abv": 6.1,
+  "ibu": 60,
+  "target_fg": 1008,
+  "target_og": 1055,
+  "ebc": 18,
+  "srm": 9,
+  "ph": 4.6,
+  "attenuation_level": 85,
   "volume": {
     "value": 20,
     "unit": "litres"
@@ -25,10 +25,10 @@
     "mash_temp": [
       {
         "temp": {
-          "value": 66,
+          "value": 64,
           "unit": "celsius"
         },
-        "duration": 25
+        "duration": 50
       }
     ],
     "fermentation": {
@@ -44,26 +44,19 @@
       {
         "name": "Pale Ale",
         "amount": {
-          "value": 3.96,
+          "value": 4.14,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Maris Otter",
+        "name": "Wheat Malt",
         "amount": {
-          "value": 0.96,
+          "value": 0.36,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Wheat",
-        "amount": {
-          "value": 0.6,
-          "unit": "kilograms"
-        }
-      },
-      {
-        "name": "Flaked Oats",
+        "name": "Munich Malt",
         "amount": {
           "value": 0.24,
           "unit": "kilograms"
@@ -72,63 +65,72 @@
     ],
     "hops": [
       {
-        "name": "Chinook",
+        "name": "Simcoe CO2 Extract",
         "amount": {
-          "value": 1,
+          "value": 7,
           "unit": "grams"
         },
-        "add": "10",
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "30",
         "attribute": "Flavour"
       },
       {
+        "name": "Centennial",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
         "name": "Chinook",
         "amount": {
           "value": 20,
           "unit": "grams"
         },
-        "add": "0",
-        "attribute": "Aroma"
-      },
-      {
-        "name": "Amarillo",
-        "amount": {
-          "value": 20,
-          "unit": "grams"
-        },
-        "add": "0",
-        "attribute": "Aroma"
-      },
-      {
-        "name": "Simcoe",
-        "amount": {
-          "value": 20,
-          "unit": "grams"
-        },
-        "add": "0",
-        "attribute": "Aroma"
-      },
-      {
-        "name": "Citra",
-        "amount": {
-          "value": 50,
-          "unit": "grams"
-        },
         "add": "Dry Hop",
         "attribute": "Aroma"
       },
       {
         "name": "Simcoe",
         "amount": {
-          "value": 50,
-          "unit": "grams"
-        },
-        "add": "Dry Hop",
-        "attribute": "Aroma"
-      },
-      {
-        "name": "Amarillo",
-        "amount": {
-          "value": 50,
+          "value": 30,
           "unit": "grams"
         },
         "add": "Dry Hop",
@@ -137,29 +139,16 @@
       {
         "name": "Mosaic",
         "amount": {
-          "value": 50,
+          "value": 20,
           "unit": "grams"
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
-      },
-      {
-        "name": "American Oak Wood- chip medium toast, Ageing soaked in Rye Whisky",
-        "amount": {
-          "value": 50,
-          "unit": "grams"
-        },
-        "add": "Dry Hop",
-        "attribute": "Wood Ageing"
       }
     ],
-    "yeast": "Wyeast 1056 - American Ale™"
+    "yeast": "Wyeast 1272"
   },
-  "food_pairing": [
-    "Chickpea curry",
-    "Pork fajitas (with the works!)",
-    "Orange and carrot cake with orange cream cheese icing"
-  ],
-  "brewers_tips": "Avoid any oxygen uptake! It will oxidise the delicate hop flavours during the ageing period. Purge your barrel/ageing vessel with CO2 and seal it airtight.",
-  "contributed_by": "John Jenkman <johnjenkman>"
+  "food_pairing": ["Lasagne", "Fried Chicken Sandwich", "Boston Cream Pie"],
+  "brewers_tips": "Depending on the yeast strain and hops you’re using, you can benefit from the effect of “biotransformation” by dry hopping before the primary fermentation is finished. Some yeasts are capable of extracting extra flavours from the hops. The earlier you dry hop in the fermentation process, the more flavour is extracted from the hops through the process of biotransformation, however at the same time more flavour also disappears again through the stripping effect of the generated CO2. A good balance is to add the hops just before primary fermentation is finished.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
 }

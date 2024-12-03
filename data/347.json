@@ -1,0 +1,141 @@
+{
+  "id": 347,
+  "name": "Technicolour Black (Fanzine)",
+  "tagline": "Black Rye IPA.",
+  "first_brewed": "2018",
+  "description": "An aggressive black IPA with a spicy hint of rye. Intense flavours for the lovers of bitterness, balanced beautifully between malt and hops.",
+  "image": "347.png",
+  "abv": 6.5,
+  "ibu": 70,
+  "target_fg": 1005.5,
+  "target_og": 1057,
+  "ebc": 135,
+  "srm": 69,
+  "ph": 4.5,
+  "attenuation_level": 90,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 70
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Dextrose: 300g, Weyermann Organic Sinamar: 30g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.08,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Rye Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Premium English Cara Malt",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa type 3",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe CO2 Extract",
+        "amount": {
+          "value": 6,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 150,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 50,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Westcombe Dairy Cheddar", "Memphis-Style Beef Ribs", "Carrot Cake"],
+  "brewers_tips": "To boost the colour but less of the roasted flavour of the dark malts, try substituting the Carafa® special III for a dehusked version of Carafa® that delivers a smoother flavour.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

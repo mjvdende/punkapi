@@ -1,0 +1,126 @@
+{
+  "id": 352,
+  "name": "Beatnik",
+  "tagline": "Raspberry Cheesecake Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "Our annual EFP-designed beatnik brew. The winning concept is a raspberry cheesecake inspired imperial stout.",
+  "image": "352.png",
+  "abv": 10.2,
+  "ibu": 70,
+  "target_fg": 1025,
+  "target_og": 1104,
+  "ebc": 360,
+  "srm": 183,
+  "ph": 4.5,
+  "attenuation_level": 76,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Raspberry Puree: 200g, Milk Sugars (Lactose): 500g, Amyloglucosidase: 2g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.4,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Malt",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.4,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Oat Husks",
+        "amount": {
+          "value": 0.32,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dry Malt Extract",
+        "amount": {
+          "value": 0.45,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 27,
+          "unit": "grams"
+        },
+        "add": "HD1",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 27,
+          "unit": "grams"
+        },
+        "add": "HD2",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Brie", "Chai Doughnuts", "Chocolate Ice Cream"],
+  "brewers_tips": "When using fresh fruit, it is best to freeze it to both sanitise without chemicals or alcohol and to cause the cells within the fruit to burst allowing for maximum flavour extraction.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

@@ -1,0 +1,140 @@
+{
+  "id": 389,
+  "name": "Mallow Martian (Fanzine)",
+  "tagline": "Imperial Milk Stout.",
+  "first_brewed": "2018",
+  "description": "A very comforting Imperial Milk Stout, brewed for Fanzine with marshmallows and cocoa nibs, to recreate the specific s’mores flavour – a famous campfire treat from the USA.",
+  "image": "389.png",
+  "abv": 10.5,
+  "ibu": 75,
+  "target_fg": 1025,
+  "target_og": 1116,
+  "ebc": 390,
+  "srm": 198,
+  "ph": 4.4,
+  "attenuation_level": 78,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 135
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Coffee: 10g Dry Hop, Cocoa Nibs: 10g Dry Hop, Marshmallow Extract: 8g Dry Hop, Demerara Sugar: 960g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner",
+        "amount": {
+          "value": 5.88,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Black Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Malt",
+        "amount": {
+          "value": 1.68,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Trienzyme",
+        "amount": {
+          "value": 0.007,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Oat Husks",
+        "amount": {
+          "value": 0.048,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Hoisin Duck", "S'mores", "Ricky Road Ice Cream"],
+  "brewers_tips": "Put coffee beans and cocoa nibs in a cheese cloth and dip in wort like a tea bag. Do multiple small additions for short lengths of time – the longer you leave them in the more heavy oils will be extracted.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

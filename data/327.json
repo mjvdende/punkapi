@@ -1,0 +1,75 @@
+{
+  "id": 327,
+  "name": "Zephyr Citrus Tart (Fanzine)",
+  "tagline": "Zephyr Sour Ale.",
+  "first_brewed": "2018",
+  "description": "A new 4.6% ABV tart pale ale. Zephyr is one of the core Fanzine beers, and will feature evolving editions as part of our new subscription model.",
+  "image": "327.png",
+  "abv": 4.6,
+  "ibu": 10,
+  "target_fg": 1008,
+  "target_og": 1044,
+  "ebc": 10,
+  "srm": 5,
+  "ph": 3.3,
+  "attenuation_level": 82,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 53,
+          "unit": "celsius"
+        },
+        "duration": 50
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Lactic Acid: 48g, Malic Acid: 5g, Citric Acid Powder: 44g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 2.52,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Perle",
+        "amount": {
+          "value": 8,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Green Papaya Salad", "Seared Monkfish", "Cured Ham Ciabatta"],
+  "brewers_tips": "Lactic acid, malic acid and citric acid all give different perception of acidity and flavour at the same concentration. Play around with them in water to understand their interaction and optimise your own recipe.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

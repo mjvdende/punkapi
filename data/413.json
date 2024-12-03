@@ -1,0 +1,98 @@
+{
+  "id": 413,
+  "name": "Electric Blue",
+  "tagline": "Scottish Sour Ale.",
+  "first_brewed": "2018",
+  "description": "Taking the classic pairing of blueberry and lavender amplifying the pairing by incorporating them in to a Scottish sour ale.",
+  "image": "413.png",
+  "abv": 7.0,
+  "ibu": 10,
+  "target_fg": 1004,
+  "target_og": 1061,
+  "ebc": 15,
+  "srm": null,
+  "ph": null,
+  "attenuation_level": null,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 55
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": null,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Lavender Tea: 25g, Blueberry Juice: 1.5kg"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Weyernmann Pils",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat",
+        "amount": {
+          "value": 0.7,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Crystal Light (40)",
+        "amount": {
+          "value": 0.15,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oats",
+        "amount": {
+          "value": 0.2,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Magnum",
+        "amount": {
+          "value": 2,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "14% Alpha"
+      },
+      {
+        "name": "H. Blanc",
+        "amount": {
+          "value": 8,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "10% Alpha"
+      }
+    ],
+    "yeast": "House Brett Blend"
+  },
+  "food_pairing": ["Camembert", "Panna Cotta", "Pheasant Breast"],
+  "brewers_tips": "Once you have made your lavender infusion, experiment with dosing rates to suit your beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

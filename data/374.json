@@ -1,0 +1,111 @@
+{
+  "id": 374,
+  "name": "Straight Up",
+  "tagline": "Single Hop IPA.",
+  "first_brewed": "2018",
+  "description": "A single hop IPA showcasing ahtanum, a hop that we use more than anyone else in the world. This single hop IPA is a USA style IPA.",
+  "image": "374.png",
+  "abv": 6.5,
+  "ibu": 65,
+  "target_fg": 1008,
+  "target_og": 1058,
+  "ebc": 25,
+  "srm": 13,
+  "ph": 4.2,
+  "attenuation_level": 86,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 45
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "FWH",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 60,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 150,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Goats Cheese and Caramelised Onion Tart", "Moroccan Chicken Tagine", "Mild Blue Cheese"],
+  "brewers_tips": "Make sure and follow the WK dosing schedule, these single hop beers get their complexity by adding hops at different times.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

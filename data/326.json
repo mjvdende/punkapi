@@ -1,0 +1,105 @@
+{
+  "id": 326,
+  "name": "The Emperors Blue Clothes (BD vs People Like Us)",
+  "tagline": "Unfiltered Blueberry Hefeweizen.",
+  "first_brewed": "2018",
+  "description": "Brewed in collaboration with People Like Us, this wheat beer sits just between a weissbier and a dunkelweisse, and is loaded with blueberry juice.",
+  "image": "keg.png",
+  "abv": 5.0,
+  "ibu": 16,
+  "target_fg": 1010,
+  "target_og": 1050,
+  "ebc": 35,
+  "srm": 18,
+  "ph": 4.4,
+  "attenuation_level": 79,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 30
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Blueberry Juice: 3.6kg"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 1.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 2.4,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Weyermann Carapils",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Weyermann Carafa Special Type 1",
+        "amount": {
+          "value": 0.036,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Mandarina Bavaria",
+        "amount": {
+          "value": 6,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Mandarina Bavaria",
+        "amount": {
+          "value": 8,
+          "unit": "grams"
+        },
+        "add": "Whirlpool",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "WB-06"
+  },
+  "food_pairing": ["German Pretzels", "French Toast with Mixed Berries", "Blueberry Muffins"],
+  "brewers_tips": "Adding juices adds both sweetness and acidity to your beer - although these beers have been designed to have the right balance, play around with the quantity of the juice to add different levels of acidity and flavour of your beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

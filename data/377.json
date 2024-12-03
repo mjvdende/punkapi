@@ -1,18 +1,18 @@
 {
-  "id": 303,
-  "name": "Hazy Jane (Rye Barrel-Aged)",
-  "tagline": "Bourbon Barrel Vermont IPA.",
+  "id": 377,
+  "name": "Vermont Vampire (Fanzine)",
+  "tagline": "Black New England IPA.",
   "first_brewed": "2018",
-  "description": "A draft-only BrewDog bar exclusive; we have experimented with ageing our Vermount IPA for a short time in bourbon and rye barrels, both known for imparting flavour quickly compared to other types of barrel.",
-  "image": "keg.png",
-  "abv": 7.2,
-  "ibu": 30,
-  "target_fg": 1009,
-  "target_og": 1065,
-  "ebc": 15,
-  "srm": 8,
+  "description": "A black New England IPA, released as a Halloween inspired Fanzine issue.",
+  "image": "377.png",
+  "abv": 7.3,
+  "ibu": 40,
+  "target_fg": 1012,
+  "target_og": 1068,
+  "ebc": 100,
+  "srm": 51,
   "ph": 4.2,
-  "attenuation_level": 86,
+  "attenuation_level": 82,
   "volume": {
     "value": 20,
     "unit": "litres"
@@ -44,28 +44,21 @@
       {
         "name": "Pale Ale",
         "amount": {
-          "value": 3.96,
+          "value": 4.32,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Maris Otter",
+        "name": "Wheat Malt",
         "amount": {
-          "value": 0.96,
+          "value": 1.08,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Wheat",
+        "name": "Carafa Special Type 3 ",
         "amount": {
-          "value": 0.6,
-          "unit": "kilograms"
-        }
-      },
-      {
-        "name": "Flaked Oats",
-        "amount": {
-          "value": 0.24,
+          "value": 0.06,
           "unit": "kilograms"
         }
       }
@@ -74,7 +67,16 @@
       {
         "name": "Chinook",
         "amount": {
-          "value": 1,
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
           "unit": "grams"
         },
         "add": "10",
@@ -83,7 +85,25 @@
       {
         "name": "Chinook",
         "amount": {
-          "value": 20,
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
           "unit": "grams"
         },
         "add": "0",
@@ -92,37 +112,37 @@
       {
         "name": "Amarillo",
         "amount": {
-          "value": 20,
+          "value": 10,
           "unit": "grams"
         },
         "add": "0",
         "attribute": "Aroma"
       },
       {
-        "name": "Simcoe",
-        "amount": {
-          "value": 20,
-          "unit": "grams"
-        },
-        "add": "0",
-        "attribute": "Aroma"
-      },
-      {
-        "name": "Citra",
+        "name": "Chinook",
         "amount": {
           "value": 50,
           "unit": "grams"
         },
-        "add": "Dry Hop",
+        "add": "Dry hop",
         "attribute": "Aroma"
       },
       {
-        "name": "Simcoe",
+        "name": "Columbus",
         "amount": {
           "value": 50,
           "unit": "grams"
         },
-        "add": "Dry Hop",
+        "add": "Dry hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 50,
+          "unit": "grams"
+        },
+        "add": "Dry hop",
         "attribute": "Aroma"
       },
       {
@@ -131,35 +151,13 @@
           "value": 50,
           "unit": "grams"
         },
-        "add": "Dry Hop",
+        "add": "Dry hop",
         "attribute": "Aroma"
-      },
-      {
-        "name": "Mosaic",
-        "amount": {
-          "value": 50,
-          "unit": "grams"
-        },
-        "add": "Dry Hop",
-        "attribute": "Aroma"
-      },
-      {
-        "name": "American Oak Wood- chip medium toast, Ageing soaked in Rye Whisky",
-        "amount": {
-          "value": 50,
-          "unit": "grams"
-        },
-        "add": "Dry Hop",
-        "attribute": "Wood Ageing"
       }
     ],
-    "yeast": "Wyeast 1056 - American Ale™"
+    "yeast": "Wyeast 1272"
   },
-  "food_pairing": [
-    "Chickpea curry",
-    "Pork fajitas (with the works!)",
-    "Orange and carrot cake with orange cream cheese icing"
-  ],
-  "brewers_tips": "Avoid any oxygen uptake! It will oxidise the delicate hop flavours during the ageing period. Purge your barrel/ageing vessel with CO2 and seal it airtight.",
-  "contributed_by": "John Jenkman <johnjenkman>"
+  "food_pairing": ["Roasted Mango and Habanero Salsa", "Fish Tacos with Pickled Jalapeños", "Short Ribs"],
+  "brewers_tips": "This beer is supposed to be very cloudy. Don’t be shy to get a good bit of the hot break into the fermenter.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
 }

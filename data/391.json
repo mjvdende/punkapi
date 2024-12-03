@@ -1,0 +1,112 @@
+{
+  "id": 391,
+  "name": "Sticky Black (Fanzine)",
+  "tagline": "Maple and Coffee Barley Wine.",
+  "first_brewed": "2019",
+  "description": "A maple and coffee barley wine brewed for Fanzine January issue.",
+  "image": "391.png",
+  "abv": 11.0,
+  "ibu": 50,
+  "target_fg": 1020,
+  "target_og": 1105,
+  "ebc": 100,
+  "srm": 51,
+  "ph": 4.4,
+  "attenuation_level": 81,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 135
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Coffee: 47g FV Addition, Natural Maple Syrup: 8g FV Addition, Jaggery: 700g, Fenugreek Seeds: 2g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 7.015,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.554,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.369,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.185,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.092,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Beech Smoked Malt",
+        "amount": {
+          "value": 0.092,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 15,
+          "unit": "grams"
+        },
+        "add": "85",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "East Kent Golding",
+        "amount": {
+          "value": 31,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Long Clawson Stilton", "Tarta de Higos", "Caramelised Apple and Nutmeg Pie"],
+  "brewers_tips": "Add coffee after the boil to get more coffee flavour and less bitterness.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

@@ -1,0 +1,183 @@
+{
+  "id": 356,
+  "name": "Small Screen Hero",
+  "tagline": "Brewdog Network Launch Beer.",
+  "first_brewed": "2018",
+  "description": "An American pale ale brewed to celebrate the launch of our brand new TV network.",
+  "image": "356.png",
+  "abv": 5.0,
+  "ibu": 45,
+  "target_fg": 1010,
+  "target_og": 1048,
+  "ebc": 10,
+  "srm": 5,
+  "ph": 4.4,
+  "attenuation_level": 79,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 25
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 3.9,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.3,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 1,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Goats Cheese and Rocket Pizza", "Vietnamese Lemongrass Chicken Curry", "Tart Au Citron with Thyme"],
+  "brewers_tips": "The key to this beer is aroma hops at flame out for no more than 15 minutes to achieve maximum flavour without any additional bitterness.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

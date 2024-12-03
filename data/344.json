@@ -1,0 +1,75 @@
+{
+  "id": 344,
+  "name": "Zephyr Piña Colada (Fanzine)",
+  "tagline": "Zephyr Sour Ale.",
+  "first_brewed": "2018",
+  "description": "Our latest session sour, this time based on Piña Colada.",
+  "image": "344.png",
+  "abv": 4.6,
+  "ibu": 10,
+  "target_fg": 1008,
+  "target_og": 1044,
+  "ebc": 10,
+  "srm": 5,
+  "ph": 3.3,
+  "attenuation_level": 82,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 53,
+          "unit": "celsius"
+        },
+        "duration": 25
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Pineapple Juice: 500g, Coconut Extract: 2g, Lactic Acid: 48g, Malic Acid: 5g, Citric Acid Powder: 44g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 2.5,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Perle",
+        "amount": {
+          "value": 8,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Prawn Korma", "Coconut Ice", "Keylime Pie"],
+  "brewers_tips": "Used toasted coconut in the mash and steep in the cold conditioning phase to emphasis the Piña Colada smoothness.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

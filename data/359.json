@@ -1,0 +1,104 @@
+{
+  "id": 359,
+  "name": "Coin-Op Kaiser (Fanzine)",
+  "tagline": "Dry Hopped Imperial Pilsner.",
+  "first_brewed": "2018",
+  "description": "A dry hopped imperial lager, brewed for Dog Dealers and Fanzine. It's a big, toasty lager, packed with pilsner malt character, layered with a soft and yielding Sauvignon-like dry hop flavour.",
+  "image": "359.png",
+  "abv": 6.0,
+  "ibu": 40,
+  "target_fg": 1006,
+  "target_og": 1054,
+  "ebc": 4,
+  "srm": 2,
+  "ph": 4.4,
+  "attenuation_level": 89,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 65
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 11,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 4.56,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Select Spalter",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Select Spalter",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Triskel",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Triskel",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "W34/70"
+  },
+  "food_pairing": ["Chilean ChorIPAn", "Black Bean Tostadas with Avocado Salsa", "Sushi"],
+  "brewers_tips": "Condition the beer for at least 15 days at 1°C.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

@@ -1,18 +1,18 @@
 {
-  "id": 304,
-  "name": "Karma Cloud",
-  "tagline": "Tropical IPA.",
+  "id": 378,
+  "name": "Rogue Element",
+  "tagline": "Coconut and Yuzu IPA.",
   "first_brewed": "2018",
-  "description": "A draft-only exclusive beer for International markets as part of the DogDealers programme. Karma Cloud is a tropical IPA, designed to cram as much fruit flavour in as possible using only hops to recreate those flavours.",
+  "description": "A one-off experimental IPA for our bars.",
   "image": "keg.png",
-  "abv": 6.5,
-  "ibu": 50,
-  "target_fg": 1010,
-  "target_og": 1060,
-  "ebc": 35,
-  "srm": 18,
-  "ph": 4.4,
-  "attenuation_level": 83,
+  "abv": 6.1,
+  "ibu": 60,
+  "target_fg": 1008,
+  "target_og": 1057,
+  "ebc": 11,
+  "srm": 6,
+  "ph": 4.6,
+  "attenuation_level": 86,
   "volume": {
     "value": 20,
     "unit": "litres"
@@ -25,46 +25,62 @@
     "mash_temp": [
       {
         "temp": {
-          "value": 65,
+          "value": 63,
           "unit": "celsius"
         },
-        "duration": 40
+        "duration": 50
       }
     ],
     "fermentation": {
       "temp": {
-        "value": 21,
+        "value": 19,
         "unit": "celsius"
       }
     },
-    "twist": null
+    "twist": "Yuzu Extract: 1g Dry Hop, Hibiscus Flowers: 40g Dry Hop, Coconut Extract: 30g Dry Hop"
   },
   "ingredients": {
     "malt": [
       {
         "name": "Pale Ale",
         "amount": {
-          "value": 4.44,
+          "value": 4.26,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Caramalt",
+        "name": "Wheat Malt",
         "amount": {
-          "value": 0.72,
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carapils Malt",
+        "amount": {
+          "value": 0.24,
           "unit": "kilograms"
         }
       }
     ],
     "hops": [
       {
-        "name": "Magnum",
+        "name": "Simcoe CO2 Extract",
         "amount": {
-          "value": 18,
+          "value": 4,
           "unit": "grams"
         },
         "add": "70",
-        "attribute": "Bittering"
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
       },
       {
         "name": "Centennial",
@@ -85,49 +101,45 @@
         "attribute": "Aroma"
       },
       {
-        "name": "Citra",
+        "name": "German Cascade",
         "amount": {
-          "value": 20,
+          "value": 40,
           "unit": "grams"
         },
-        "add": "0",
+        "add": "Dry Hop",
         "attribute": "Aroma"
       },
       {
         "name": "Centennial",
         "amount": {
-          "value": 50,
+          "value": 40,
           "unit": "grams"
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
       },
       {
-        "name": "Simcoe",
+        "name": "Ariana",
         "amount": {
-          "value": 50,
+          "value": 40,
           "unit": "grams"
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
       },
       {
-        "name": "Citra",
+        "name": "Aurora",
         "amount": {
-          "value": 50,
+          "value": 60,
           "unit": "grams"
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
       }
     ],
-    "yeast": "Wyeast 1056 - American Ale™"
+    "yeast": "Wyeast 1272"
   },
-  "food_pairing": [
-    "Roasted pork loin with tropical fruit",
-    "Nachos",
-    "Cheddar cheese board"
-  ],
-  "brewers_tips": "Using the latest year's hops is a must. Leave the beer conditioning on the hops for a maximum of 5 days, otherwise there is a risk of a green vegetal like character being extracted.",
-  "contributed_by": "John Jenkman <johnjenkman>"
+  "food_pairing": ["Thai Shrimp Lettuce Wraps", "Sweet Potato and Coconut Dahl", "Flan De Coco"],
+  "brewers_tips": "Experiment with the quantities of the Yuzu and Coconut.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
 }

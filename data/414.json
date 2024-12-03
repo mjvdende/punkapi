@@ -1,0 +1,98 @@
+{
+  "id": 414,
+  "name": "Gooseberry Fool",
+  "tagline": "Scottish Sour Ale.",
+  "first_brewed": "2018",
+  "description": "Fragrant combination of gooseberries and elderflower amplified by incorporating in to a Scottish sour ale.",
+  "image": "414.png",
+  "abv": 6.0,
+  "ibu": 15,
+  "target_fg": 1004,
+  "target_og": 1050,
+  "ebc": 15,
+  "srm": null,
+  "ph": null,
+  "attenuation_level": null,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 55
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": null,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Elderflower Tea: 20g, Red Gooseberries: 2kg, White Gooseberries: 1kg"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Weyernmann Pils",
+        "amount": {
+          "value": 1.15,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat",
+        "amount": {
+          "value": 0.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Crystal Light (40)",
+        "amount": {
+          "value": 0.15,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oats",
+        "amount": {
+          "value": 0.2,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Magnum",
+        "amount": {
+          "value": 2.0,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "14% Alpha"
+      },
+      {
+        "name": "H. Blanc",
+        "amount": {
+          "value": 8.0,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "10% Alpha"
+      }
+    ],
+    "yeast": "House Brett Blend"
+  },
+  "food_pairing": ["Baked Goats Cheese", "Almond and Chocolate Tart", "Grilled Mackerel with Soy and Ginger Glaze"],
+  "brewers_tips": "Ensure you squash down your gooseberries to allow them to release their sugars for a good additional fermentation.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

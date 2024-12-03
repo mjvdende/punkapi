@@ -1,0 +1,119 @@
+{
+  "id": 390,
+  "name": "Tokyo Death (vs Northern Monk)",
+  "tagline": "Imperial Stout.",
+  "first_brewed": "2019",
+  "description": "Black as a Samurai's robe and busier than Shibuya crossing. This inky stout is alive with flavour. An earthquake on the plate - Jasmine is off the Richter with sticky caramel, nuts and roasted barley in close pursuit. Mixed berries ride out this liquid tsunami to complement and balance the malted profile.",
+  "image": "390.png",
+  "abv": 15.0,
+  "ibu": 50,
+  "target_fg": 1030,
+  "target_og": 1130,
+  "ebc": 250,
+  "srm": 127,
+  "ph": 4.4,
+  "attenuation_level": 77,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 115
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Dextrose: 2.4kg FV Addition, Trienzyme: 6g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 7.68,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Roasted Barley",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 3",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "75",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 60,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Baked Honey Glazed Ham with Dark Fruit Sauce", "Herbal Roast Beef with Cranberry Jus", "Dark Fruitcake"],
+  "brewers_tips": "For this beer to be successful a few key points need to be followed. The first is picking the correct yeast strain, one that is known to be able to have high alcohol tolerance. The second is that by starting the brew with all the sugar necessary to gain +12% beers subjects the yeast to high osmotic stress and will hinder fermentation, so it is best to start with wort just over 1.100. And finally once fermentation has decreased and moving approximately 1SG point per 24hrs, it is time to start adding dextrose to achieve target ABV.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

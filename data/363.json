@@ -1,0 +1,112 @@
+{
+  "id": 363,
+  "name": "Ten Ton Truck Black Forest (Fanzine)",
+  "tagline": "Black Forest Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "A Fanzine imperial stout with additions of cherry and vanilla.",
+  "image": "keg.png",
+  "abv": 10.0,
+  "ibu": 70,
+  "target_fg": 1022,
+  "target_og": 1100,
+  "ebc": 360,
+  "srm": 183,
+  "ph": 4.5,
+  "attenuation_level": 78,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Sour Cherry Juice: 250g FV Addition, Vanilla Extract: 140g FV Addition, English Heather Honey: 120g, Dextrose: 600g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.76,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 1.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "20",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Godminster Vintage with Caramelised Cranberry Relish", "A Massive Ribeye Steak", "Mississippi Mud Pie"],
+  "brewers_tips": "When using berries, it is best to freeze them first to sanitise the fruit and to burst the cells within the fruit for maximum flavour extraction. They should also be added after primary fermentation, this will keep a lot more flavour and aroma in the beer as the secondary fermentation won't be as mettlesome as the primary fermentation.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

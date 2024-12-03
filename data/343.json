@@ -1,18 +1,18 @@
 {
-  "id": 304,
-  "name": "Karma Cloud",
-  "tagline": "Tropical IPA.",
+  "id": 343,
+  "name": "Raspberry Rivet (Fanzine)",
+  "tagline": "Raspberry Oatmeal Cream Ale.",
   "first_brewed": "2018",
-  "description": "A draft-only exclusive beer for International markets as part of the DogDealers programme. Karma Cloud is a tropical IPA, designed to cram as much fruit flavour in as possible using only hops to recreate those flavours.",
-  "image": "keg.png",
+  "description": "A New England IPA brewed with raspberry, oats and milk sugar.",
+  "image": "343.png",
   "abv": 6.5,
-  "ibu": 50,
-  "target_fg": 1010,
-  "target_og": 1060,
-  "ebc": 35,
-  "srm": 18,
+  "ibu": 15,
+  "target_fg": 1019,
+  "target_og": 1069,
+  "ebc": 30,
+  "srm": 15,
   "ph": 4.4,
-  "attenuation_level": 83,
+  "attenuation_level": 72,
   "volume": {
     "value": 20,
     "unit": "litres"
@@ -25,10 +25,10 @@
     "mash_temp": [
       {
         "temp": {
-          "value": 65,
+          "value": 64,
           "unit": "celsius"
         },
-        "duration": 40
+        "duration": 30
       }
     ],
     "fermentation": {
@@ -37,37 +37,35 @@
         "unit": "celsius"
       }
     },
-    "twist": null
+    "twist": "Raspberry Juice: 550g, Milk Sugars (Lactose): 550g"
   },
   "ingredients": {
     "malt": [
       {
         "name": "Pale Ale",
         "amount": {
-          "value": 4.44,
+          "value": 4.08,
           "unit": "kilograms"
         }
       },
       {
-        "name": "Caramalt",
+        "name": "Wheat Malt",
         "amount": {
-          "value": 0.72,
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.48,
           "unit": "kilograms"
         }
       }
     ],
     "hops": [
       {
-        "name": "Magnum",
-        "amount": {
-          "value": 18,
-          "unit": "grams"
-        },
-        "add": "70",
-        "attribute": "Bittering"
-      },
-      {
-        "name": "Centennial",
+        "name": "Amarillo",
         "amount": {
           "value": 20,
           "unit": "grams"
@@ -76,7 +74,7 @@
         "attribute": "Aroma"
       },
       {
-        "name": "Simcoe",
+        "name": "Mosaic",
         "amount": {
           "value": 20,
           "unit": "grams"
@@ -94,18 +92,18 @@
         "attribute": "Aroma"
       },
       {
-        "name": "Centennial",
+        "name": "Amarillo",
         "amount": {
-          "value": 50,
+          "value": 30,
           "unit": "grams"
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
       },
       {
-        "name": "Simcoe",
+        "name": "Mosaic",
         "amount": {
-          "value": 50,
+          "value": 30,
           "unit": "grams"
         },
         "add": "Dry Hop",
@@ -114,20 +112,16 @@
       {
         "name": "Citra",
         "amount": {
-          "value": 50,
+          "value": 30,
           "unit": "grams"
         },
         "add": "Dry Hop",
         "attribute": "Aroma"
       }
     ],
-    "yeast": "Wyeast 1056 - American Ale™"
+    "yeast": "Wyeast 1272"
   },
-  "food_pairing": [
-    "Roasted pork loin with tropical fruit",
-    "Nachos",
-    "Cheddar cheese board"
-  ],
-  "brewers_tips": "Using the latest year's hops is a must. Leave the beer conditioning on the hops for a maximum of 5 days, otherwise there is a risk of a green vegetal like character being extracted.",
-  "contributed_by": "John Jenkman <johnjenkman>"
+  "food_pairing": ["Cream Cheese Crackers", "White Chocolate and Raspberry Cookies", "Birthday Cake"],
+  "brewers_tips": "Add the raspberry puree at flame out, the sugars will ferment out and this is fine. The residual sweetness comes from the milk sugars (lactose).",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
 }

@@ -1,0 +1,150 @@
+{
+  "id": 394,
+  "name": "Half Eagle 2.7%",
+  "tagline": "Half Pale Ale.",
+  "first_brewed": "2019",
+  "description": "A low ABV version of an American pale ale. Retaining the hop profile but dialling down the basic malts. The addition of wheat and oats adds structure to support the lower pale malt base. The hop levels are still in line with our pale and hoppy core beers.",
+  "image": "keg.png",
+  "abv": 2.7,
+  "ibu": 50,
+  "target_fg": 1008,
+  "target_og": 1029,
+  "ebc": 8,
+  "srm": 4,
+  "ph": 4.32,
+  "attenuation_level": 72,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 35
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 1.32,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carapils Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.06,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "65",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Feta and Greens Salad with Citrus Dressing", "Fried Calamari", "Poached Eggs on Toast"],
+  "brewers_tips": "In any low ABV fermentation after primary fermentation has finished if the beer smells or tastes like wort, allow it to condition on the yeast for an extra 24 - 48 hours. This can round the profile off well.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

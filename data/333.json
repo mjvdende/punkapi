@@ -1,0 +1,119 @@
+{
+  "id": 333,
+  "name": "Nebula (Fanzine)",
+  "tagline": "Russian Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "A new 10% ABV Imperial Stout. It is one of the core Fanzine beers, and will feature evolving editions as part of our subscription model.",
+  "image": "333.png",
+  "abv": 10.0,
+  "ibu": 70,
+  "target_fg": 1025,
+  "target_og": 1104,
+  "ebc": 360,
+  "srm": 183,
+  "ph": 4.5,
+  "attenuation_level": 76,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 85
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Mexican Honey: 30g, Brown Sugar: 30g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.76,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 1.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Beef Jerky", "Steak with Blue Cheese Sauce", "Chocolate Lava Cake"],
+  "brewers_tips": "Condition for up to a month at 1°C for best results.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

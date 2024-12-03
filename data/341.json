@@ -1,0 +1,109 @@
+{
+  "id": 341,
+  "name": "King of Eights V2 (Fanzine)",
+  "tagline": "Double Dry-Hopped IPA.",
+  "first_brewed": "2018",
+  "description": "A 4.6% tart pale ale. It has a twist of tartness up-front, with juicy sour fruit notes dominating the palate.",
+  "image": "341.png",
+  "abv": 7.4,
+  "ibu": 20,
+  "target_fg": 1012,
+  "target_og": 1069,
+  "ebc": 20,
+  "srm": 10,
+  "ph": 4.4,
+  "attenuation_level": 83,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 66,
+          "unit": "celsius"
+        },
+        "duration": 21
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.16,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 2,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 6",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Comet",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop, at Day 8",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Chorizo", "Mexican Cheese Burgers", "Three Bean Salad"],
+  "brewers_tips": "The experimental hop HBC 438 used for this brew is now named Sabro. This will bring a huge pineapple aroma to the finished beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

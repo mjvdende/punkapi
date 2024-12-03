@@ -1,0 +1,109 @@
+{
+  "id": 367,
+  "name": "Opaque Jake V2 (Fanzine)",
+  "tagline": "New England IPA.",
+  "first_brewed": "2018",
+  "description": "A full scale, tweaked version of a tiny batch tested out early in 2018.",
+  "image": "367.png",
+  "abv": 7.2,
+  "ibu": 20,
+  "target_fg": 1013,
+  "target_og": 1068,
+  "ebc": 40,
+  "srm": 20,
+  "ph": 4.4,
+  "attenuation_level": 81,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 66,
+          "unit": "celsius"
+        },
+        "duration": 21
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Pectin Powder: 2g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.04,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Milk",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 2,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 100,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Manchego", "Vietnamese Tuna Burger", "Mango and Cardamom Syllabub"],
+  "brewers_tips": "Pectin is added to give some stable haziness in the beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

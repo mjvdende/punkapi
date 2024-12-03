@@ -1,0 +1,114 @@
+{
+  "id": 399,
+  "name": "Zombie Cake",
+  "tagline": "Chocolate Praline Porter.",
+  "first_brewed": "2019",
+  "description": "Dark forces are at work in this devilishly good Praline Porter. Toffee and chocolate unite and come a-knocking. Open up to layers of smooth roasty character, with notes of vanilla, mellow coffee and a subtle nuttiness. And a bittersweet cliff-hanger finale. Zombie Cake - Bittersweet, engaging and rewarding.",
+  "image": "399.png",
+  "abv": 5.0,
+  "ibu": 25,
+  "target_fg": 1020,
+  "target_og": 1062,
+  "ebc": 90,
+  "srm": 46,
+  "ph": 4.2,
+  "attenuation_level": 68,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 45
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Vanilla Extract: 65g FV Addition, Milk Sugars (Lactose): 360g, Honey: 240g Whirlpool"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 3.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.84,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 3",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Amarillo",
+        "amount": {
+          "value": 6,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Bramling Cross",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Amarillo",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Mimolette", "Almond Milk Pudding", "Pumpkin Cheesecake"],
+  "brewers_tips": "Add the honey close to the end of the whirlpool to ensure the aroma stays in the beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

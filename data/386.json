@@ -1,0 +1,112 @@
+{
+  "id": 386,
+  "name": "Ten Ton Truck (Christmas Edition)",
+  "tagline": "Barrel Aged Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "A warm and balanced Imperial Stout aged in rye barrels.",
+  "image": "386.png",
+  "abv": 13.4,
+  "ibu": 70,
+  "target_fg": 1022,
+  "target_og": 1100,
+  "ebc": 360,
+  "srm": 183,
+  "ph": 4.5,
+  "attenuation_level": 78,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Rye Whiskey Soaked Oak Chips: 40g FV, Cinnamon Powder: 1g FV, Clove Powder: 1g FV, English Heather Honey: 120g, Dextrose: 600g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.76,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 1.44,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Cajun Pork Chops", "Wild Boar Casserole", "Christmas Pudding"],
+  "brewers_tips": "Condition for up to a month at 1°C for best results.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

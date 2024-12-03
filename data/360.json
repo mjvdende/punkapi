@@ -1,0 +1,174 @@
+{
+  "id": 360,
+  "name": "Heist Monkey (Fanzine)",
+  "tagline": "American Pale Ale.",
+  "first_brewed": "2018",
+  "description": "A Fanzine exclusive American pale ale, aggressively dry hopped with a range of new world varieties.",
+  "image": "360.png",
+  "abv": 5.4,
+  "ibu": 45,
+  "target_fg": 1010,
+  "target_og": 1048,
+  "ebc": 10,
+  "srm": 5,
+  "ph": 4.4,
+  "attenuation_level": 79,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 25
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.76,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 1,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Hallertauer Blanc",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mandarina Bavaria",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Sparkenhoe Red Leicester", "Huevos Rancheros", "Margherita Pizza"],
+  "brewers_tips": "Depending on the yeast strain and hops you’re using, you can benefit from the effect of “biotransformation” by dry hopping before the primary fermentation is finished. Some yeasts are capable of extracting extra flavours from the hops. The earlier you dry hop in the fermentation process, the more flavour is extracted from the hops through the process of biotransformation, however at the same time more flavour also disappears again through the stripping effect of the generated CO2. A good balance is to add the hops just before primary fermentation is finished.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

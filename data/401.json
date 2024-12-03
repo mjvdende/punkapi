@@ -1,0 +1,104 @@
+{
+  "id": 401,
+  "name": "Mangopolis",
+  "tagline": "Mango Brut IPA.",
+  "first_brewed": "2019",
+  "description": "A sophisticated Brut. Pours vibrant pale yellowy-orange. Tropical fruit on the nose. Lemon citrus, white grapes and floral notes with a big juicy mango hit and a deft touch of spice. Delivered Sahara dry with champagne like effervescence.",
+  "image": "401.png",
+  "abv": 6.0,
+  "ibu": 20,
+  "target_fg": 1003,
+  "target_og": 1050,
+  "ebc": 9,
+  "srm": 5,
+  "ph": 4.4,
+  "attenuation_level": 94,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 90
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Mango Concentrate: 360g, Amyloglucosidase: 1g, Dextrose: 240g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 3.96,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 5,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Aurora",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Parmesan Baked Parsnips", "Ceviche", "Lime Sorbet"],
+  "brewers_tips": "Dextrose is used to reach a very high attenuation in order to get that dry feeling.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

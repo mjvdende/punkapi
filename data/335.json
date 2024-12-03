@@ -1,0 +1,116 @@
+{
+  "id": 335,
+  "name": "Pulp Patriot (Fanzine)",
+  "tagline": "Milkshake NEIPA",
+  "first_brewed": "2018",
+  "description": "A scaled up rebrew of our recent milkshake IPA. A hazy New England DIPA, loaded with mango and peach resulting in an explosive aroma and a sweet full-bodied fruit shake flavour.",
+  "image": "335.png",
+  "abv": 9.5,
+  "ibu": 10,
+  "target_fg": 1018,
+  "target_og": 1092,
+  "ebc": 15,
+  "srm": 8,
+  "ph": 4.4,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 46
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Peach Juice Concentrate: 250g, Mango Concentrate: 250g, Milk Sugars (Lactose): 400g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.04,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dry Malt Extract",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 11,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 11,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 149,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Mosaic",
+        "amount": {
+          "value": 149,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Pad Thai", "Solero", "Peach Cobbler"],
+  "brewers_tips": "Don't cool the beer too cold after fermentation or you will loose the haze, 3°C should do.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

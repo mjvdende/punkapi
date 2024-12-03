@@ -1,0 +1,131 @@
+{
+  "id": 383,
+  "name": "Caramel Carousel (Fanzine)",
+  "tagline": "Caramel Scotch Ale.",
+  "first_brewed": "2018",
+  "description": "A Scotch ale with flavours reminiscent of both Dogma and 5AM Saint. This caramelly, rounded wee heavy brewed for Fanzine, is infused with salt, bringing out the toffee notes and adding a softly savoury counterpoint to a huge, decadent beer.",
+  "image": "383.png",
+  "abv": 8.0,
+  "ibu": 30,
+  "target_fg": 1023,
+  "target_og": 1085,
+  "ebc": 45,
+  "srm": 23,
+  "ph": 5.2,
+  "attenuation_level": 73,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 90
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 15,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Milk Sugars (Lactose): 400g FV, Sea Salt: 4g FV"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 2.4,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 1.92,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Beech Smoked Barley Malt",
+        "amount": {
+          "value": 0.06,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.96,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 16,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Sausages", "Prune Drowned Pheasant", "Crème Brulee"],
+  "brewers_tips": "Crush the malt as close to brewing time as possible. The fresher the malt, the more intense caramel flavours will be released in the wort.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

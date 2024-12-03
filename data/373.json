@@ -1,0 +1,114 @@
+{
+  "id": 373,
+  "name": "Dogtoberfest (Fanzine)",
+  "tagline": "Märzen Style Lager.",
+  "first_brewed": "2018",
+  "description": "An Oktoberfest beer for our Fanzine and our bars.",
+  "image": "373.png",
+  "abv": 5.4,
+  "ibu": 25,
+  "target_fg": 1010,
+  "target_og": 1050,
+  "ebc": 25,
+  "srm": 13,
+  "ph": 4.2,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 60
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 11,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 0.9,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Vienna Malt",
+        "amount": {
+          "value": 0.9,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt Type 1",
+        "amount": {
+          "value": 1.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt Type 2",
+        "amount": {
+          "value": 0.72,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "English Cara Malt",
+        "amount": {
+          "value": 0.18,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Tettnang",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "FWH",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Tettnang",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Tettnang",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "W34/70"
+  },
+  "food_pairing": ["Weisswurst with Mustard and Pretzels", "Smoky Lamb Rendang", "Lemon Cheesecake"],
+  "brewers_tips": "Condition the beer for at least 15 days at 1°C.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

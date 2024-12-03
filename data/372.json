@@ -1,0 +1,161 @@
+{
+  "id": 372,
+  "name": "Totem (Fanzine)",
+  "tagline": "Imperial Red Ale.",
+  "first_brewed": "2018",
+  "description": "A big Imperial Red Ale brewed for Fanzine, with a blend of pan-global hops providing a broad flavour profile, while a blend of crystal malts gives colour and depth of flavour.",
+  "image": "372.png",
+  "abv": 7.3,
+  "ibu": 45,
+  "target_fg": 1010,
+  "target_og": 1067,
+  "ebc": 60,
+  "srm": 30,
+  "ph": 4.2,
+  "attenuation_level": 85,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 65
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.28,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons DRC",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Mandarina Bavaria",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Fuggles",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Fuggles",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Saphir",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 60,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Dunbarton Blue Cheese", "Pasta Puttanesca", "Victoria Sponge"],
+  "brewers_tips": "Make sure to limit contact with air when transferring, these dark red beers are very sensitive to oxidation.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

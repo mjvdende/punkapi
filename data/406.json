@@ -1,0 +1,100 @@
+{
+  "id": 406,
+  "name": "Cosmic Crush Cherry",
+  "tagline": "Scottish Sour Ale.",
+  "first_brewed": "2018",
+  "description": "Cosmic Crush is Overworks year round available sour beer range focusing on single fruit additions. This one's cherry!",
+  "image": "406.png",
+  "abv": 5.8,
+  "ibu": 15,
+  "target_fg": 1004,
+  "target_og": 1058,
+  "ebc": 15,
+  "srm": null,
+  "ph": null,
+  "attenuation_level": null,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 55
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": null,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Cherry Juice: 1.1kg, Sour Cherries: 1.7kg"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Weyernmann Pils",
+        "amount": {
+          "value": 1.9,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oats",
+        "amount": {
+          "value": 0.3,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Magnum",
+        "amount": {
+          "value": 1.5,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "14% Alpha"
+      },
+      {
+        "name": "H. Blanc",
+        "amount": {
+          "value": 7,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "10% Alpha"
+      },
+      {
+        "name": "H. Mittelfruh",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "3% Alpha"
+      }
+    ],
+    "yeast": "House Brett Blend"
+  },
+  "food_pairing": ["Ogleshield Jersey Cows Milk Cheese", "Cherry Cheesecake", "Seared Duck Breast"],
+  "brewers_tips": "It is best to remove the stems and stones from the cherries to avoid spicy flavours, allowing the bright fruit character to shine through.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

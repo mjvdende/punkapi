@@ -1,0 +1,137 @@
+{
+  "id": 375,
+  "name": "Paradox Uncle Duke's (Barrel Aged)",
+  "tagline": "Whisky Cask Aged Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "An imperial stout that has been aged in oak barrels that contained Uncle Duke's, our category defying Bourbon/Scotch whisky.",
+  "image": "375.png",
+  "abv": 13.0,
+  "ibu": 40,
+  "target_fg": 1015,
+  "target_og": 1112,
+  "ebc": 250,
+  "srm": 127,
+  "ph": 4.4,
+  "attenuation_level": 87,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 60
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 18,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Uncle Duke's Soaked Oak Chips: 10g FV"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 6.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Caramalt",
+        "amount": {
+          "value": 0.84,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.84,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 1",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 3",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 1.92,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 60,
+          "unit": "grams"
+        },
+        "add": "75",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "30",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Saaz",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Hallertauer Mittelfruh",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Pork Ribs", "Game Pie", "Honey and Garlic Roasted Vegetables"],
+  "brewers_tips": "If you’re are lucky enough to own a barrel to age your beers in, be sure to take good care of it. Especially when barrels are empty, they need some TLC. When you don’t have beer in the barrel always keep it full of water to prevent it drying out. Getting a dry barrel to stop leaking is very hard to impossible. Should you encounter microbiological problems, burning sulphur wicks in the barrel or keeping it filled up with a sulphite/citric acid solution can help.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

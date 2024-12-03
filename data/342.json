@@ -1,0 +1,136 @@
+{
+  "id": 342,
+  "name": "Sonic Boom V2",
+  "tagline": "Experimental Hop IPA.",
+  "first_brewed": "2018",
+  "description": "An experimental IPA. Replacing our single hop series, this series of IPAs will allow our brew team to experiment with hops, with the base beer unchanging from release to release. New and experimental varieties, new hopping techniques, or whatever they want to do to evolve the beer each time round.",
+  "image": "342.png",
+  "abv": 6.5,
+  "ibu": 60,
+  "target_fg": 1008,
+  "target_og": 1058,
+  "ebc": 11,
+  "srm": 6,
+  "ph": 4.6,
+  "attenuation_level": 86,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.38,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carapils Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe CO2 Extract",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "HBC 438",
+        "amount": {
+          "value": 60,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Paneer Korma", "Potato and Cumin Salad", "Snickerdoodle"],
+  "brewers_tips": "We've experimented with this beer so you should too! Try swapping some hops out for others, have fun with it.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

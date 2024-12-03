@@ -1,0 +1,133 @@
+{
+  "id": 350,
+  "name": "Radio Zombie Phone In",
+  "tagline": "Russian Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "A 14% ABV Russian Imperial Stout brewed as an EFP V referral reward. Aggressive and imposing, this massive stout is black as pitch and delivers huge and complex flavours.",
+  "image": "350.png",
+  "abv": 14.0,
+  "ibu": 80,
+  "target_fg": 1024,
+  "target_og": 1131,
+  "ebc": 800,
+  "srm": 406,
+  "ph": 4.4,
+  "attenuation_level": 82,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 115
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 8.88,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Black Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Roasted Barley",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 1",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Oat Husks",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Trienzyme",
+        "amount": {
+          "value": 0.01,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dextrose",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 29,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 17,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Kingstone Farm Rollright", "Porterhouse Steak", "Black Forest Gateau"],
+  "brewers_tips": "A long mash rest is essential for complete attenuation.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

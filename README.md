@@ -35,7 +35,7 @@ food={string} – retrieve a list of beers that go well with the specified food
 
 ## The Beers
 
-> Status: 325 of 415 completed
+> Status: 415 of 415 completed
 
 * [x] 001 - Punk IPA 2007 – 2010
 * [x] 002 - Punk IPA 2010 – current
@@ -264,7 +264,7 @@ food={string} – retrieve a list of beers that go well with the specified food
 * [x] 225 - Kingpin
 * [x] 226 - Paradox Islay
 * [x] 227 - Ace Of Chinook
-* [x] 228 - Mashtag 2016
+* [x] 228 - #Mashtag 2016
 * [x] 229 - Neon Overlord
 * [x] 230 - Black Hammer
 * [x] 231 - Ace Of Citra
@@ -338,8 +338,8 @@ food={string} – retrieve a list of beers that go well with the specified food
 * [x] 299 - Raspberry Popsicle Parade
 * [x] 300 - Indie Pale Ale
 * [x] 301 - Small Batch: Dry-Hopped Pilsner
-* [x] 302 - Hazy Jane Bourbon Barrel Aged
-* [x] 303 - Hazy Jane Rye Barrel Aged
+* [x] 302 - Hazy Jane (Bourbon Barrel-Aged)
+* [x] 303 - Hazy Jane (Rye Barrel-Aged)
 * [x] 304 - Karma Cloud
 * [x] 305 - Native Son
 * [x] 306 - AB:25
@@ -362,6 +362,96 @@ food={string} – retrieve a list of beers that go well with the specified food
 * [x] 323 - Interstate Vienna Lager
 * [x] 324 - Fools Gold Dortmunder Lager
 * [x] 325 - Zipcode
+* [x] 326 - The Emperors Blue Clothes (BD vs People Like Us)
+* [x] 327 - Fanzine: Zephyr Citrus Tart
+* [x] 328 - Small Batch: Tangerine Zephyr
+* [x] 329 - Cybernaut
+* [x] 330 - BA ASA Barrel #132
+* [x] 331 - Fanzine: Lime Zephyr V2
+* [x] 332 - Eight Bit (AGM Guest Collab)
+* [x] 333 - Fanzine: Nebula
+* [x] 334 - Small Batch: Lemon Zephyr
+* [x] 335 - Fanzine: Pulp Patriot
+* [x] 336 - Fanzine: Ten Ton Truck Espresso
+* [x] 337 - Small Batch: Blueberry Zephyr
+* [x] 338 - Fanzine: Hopshop
+* [x] 339 - Zulu Time (BD vs La Goutte d'Or)
+* [x] 340 - Fanzine: Origami Orangutan
+* [x] 341 - Fanzine: King of Eights V2
+* [x] 342 - Sonic Boom V2
+* [x] 343 - Fanzine: Raspberry Rivet
+* [x] 344 - Fanzine: Zephyr Piña Colada
+* [x] 345 - Fanzine: Vinyl Vigilante
+* [x] 346 - Fanzine: Jet Trash V2
+* [x] 347 - Fanzine: Technicolour Black
+* [x] 348 - Fanzine: King of Eights V3
+* [x] 349 - Fanzine: Pulp Patriot V2 Double Dry-Hop
+* [x] 350 - Radio Zombie Phone In
+* [x] 351 - Mashtag 2018
+* [x] 352 - Beatnik
+* [x] 353 - Fanzine: Lime Zephyr V2
+* [x] 354 - Fanzine: Ten Ton Truck Vietnamese Coffee
+* [x] 355 - Born To Die 13/09/18
+* [x] 356 - Small Screen Hero
+* [x] 357 - Quench Quake
+* [x] 358 - Hop Fiction
+* [x] 359 - Fanzine: Coin-Op Kaiser
+* [x] 360 - Fanzine: Heist Monkey
+* [x] 361 - King Of Eights V4 (German Hop Edition)
+* [x] 362 - Alter Ego
+* [x] 363 - Fanzine: Ten Ton Truck Black Forest
+* [x] 364 - Raspberry Blitz
+* [x] 365 - Sonic Boom V3
+* [x] 366 - Lost Lager
+* [x] 367 - Fanzine: Opaque Jake V2
+* [x] 368 - Fanzine: Scarlet Fever
+* [x] 369 - Fanzine: Mind Game
+* [x] 370 - Fanzine: Brutalist
+* [x] 371 - Fanzine: Flux Factory
+* [x] 372 - Fanzine: Totem
+* [x] 373 - Fanzine: Dogtoberfest
+* [x] 374 - Straight Up
+* [x] 375 - Paradox Uncle Duke's (Barrel Aged)
+* [x] 376 - Fanzine: Red & Dead
+* [x] 377 - Fanzine: Vermont Vampire
+* [x] 378 - Rogue Element
+* [x] 379 - Fanzine: Closed Circuit
+* [x] 380 - Fanzine: Sea Weasel Shanty
+* [x] 381 - Get Out Claus
+* [x] 382 - Mistletoe Mafia
+* [x] 383 - Fanzine: Caramel Carousel
+* [x] 384 - Fanzine: Clouded Clarity
+* [x] 385 - Fanzine: Double Agent
+* [x] 386 - Ten Ton Truck (Christmas Edition)
+* [x] 387 - Radio Zombie Phone In (Barrel Aged)
+* [x] 388 - Fanzine: Passionista
+* [x] 389 - Fanzine: Mallow Martian
+* [x] 390 - Tokyo Death (vs Northern Monk)
+* [x] 391 - Fanzine: Sticky Black
+* [x] 392 - Fanzine: Porridge Head
+* [x] 393 - Pulp Patriot V3
+* [x] 394 - Half Eagle 2.7%
+* [x] 395 - Two Way Street (BD vs Brygghuset Finn)
+* [x] 396 - Fight Club
+* [x] 397 - Paradox Islay
+* [x] 398 - Deep Slumber (BrewDog vs Buxton)
+* [x] 399 - Zombie Cake
+* [x] 400 - Dog H
+* [x] 401 - Mangopolis
+* [x] 402 - Baltic Bandit
+* [x] 403 - Transatlantic Telegram
+* [x] 404 - Fanzine: Bounty Hunter
+* [x] 405 - Prime Time
+* [x] 406 - Cosmic Crush Cherry
+* [x] 407 - Cosmic Crush Quince
+* [x] 408 - Cosmic Crush Peach
+* [x] 409 - Cosmic Crush Tropical
+* [x] 410 - Cosmic Crush Raspberry
+* [x] 411 - Funk X Punk
+* [x] 412 - Moru
+* [x] 413 - Electric Blue
+* [x] 414 - Gooseberry Fool
+* [x] 415 - Aplomb Bomb
 
 ## License
 

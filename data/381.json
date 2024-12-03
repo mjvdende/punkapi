@@ -1,0 +1,110 @@
+{
+  "id": 331,
+  "name": "Get Out Claus",
+  "tagline": "hot Chocolate Stout.",
+  "first_brewed": "2018",
+  "description": "A big and warming imperial stout, great any time of year but particularly suitable for the Christmas festive season.",
+  "image": "381.png",
+  "abv": 8.2,
+  "ibu": 25,
+  "target_fg": 1020,
+  "target_og": 1085,
+  "ebc": 190,
+  "srm": 96,
+  "ph": 4.2,
+  "attenuation_level": 76,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 55
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Habanero Powder: 0.35g FV, Coffee: 47g FV, Vanilla Extract: 100g FV, Cocoa Nibs: 154g Whirlpool, Cinnamon Powder: 10g Whirlpool"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.17,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal Malt",
+        "amount": {
+          "value": 0.74,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.55,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Chocolate Wheat",
+        "amount": {
+          "value": 0.37,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 1",
+        "amount": {
+          "value": 0.37,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.37,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.74,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 11,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Mole Poblano", "Black Bean Burrito", "Dal Makhani"],
+  "brewers_tips": "A little chilli goes a long way!",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

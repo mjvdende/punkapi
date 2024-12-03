@@ -1,0 +1,100 @@
+{
+  "id": 407,
+  "name": "Cosmic Crush Quince",
+  "tagline": "Scottish Sour Ale.",
+  "first_brewed": "2018",
+  "description": "Cosmic Crush is Overworks year round available sour beer range focusing on single fruit additions. This one's quince!",
+  "image": "407.png",
+  "abv": 5.8,
+  "ibu": 15,
+  "target_fg": 1004,
+  "target_og": 1058,
+  "ebc": 15,
+  "srm": null,
+  "ph": null,
+  "attenuation_level": null,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 55
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": null,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Quince Puree: 700g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Weyernmann Pils",
+        "amount": {
+          "value": 1.9,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oats",
+        "amount": {
+          "value": 0.3,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Magnum",
+        "amount": {
+          "value": 1.9,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "14% Alpha"
+      },
+      {
+        "name": "H. Blanc",
+        "amount": {
+          "value": 1.2,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "10% Alpha"
+      },
+      {
+        "name": "H. Mittelfruh",
+        "amount": {
+          "value": 0.3,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "3% Alpha"
+      }
+    ],
+    "yeast": "House Brett Blend"
+  },
+  "food_pairing": ["Chili and Tomato Soup", "Red Wine and Spice Poached Quince with Mascarpone", "Goats Cheese Tart with caramelized Onions"],
+  "brewers_tips": "Freezing and thawing the fruit before adding it to the beer will rupture the cell walls, enabling more of the fruit character to develop within the beer.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

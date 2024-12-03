@@ -1,0 +1,112 @@
+{
+  "id": 339,
+  "name": "Zulu Time (BD vs La Goutte d'Or)",
+  "tagline": "South African Stout.",
+  "first_brewed": "2018",
+  "description": "One of a series of collaborations with European craft breweries, aimed at promoting engagement and market growth. With French craft brewers Brasserie La Goutte D'or, we are brewing a stout with South African influences.",
+  "image": "339.png",
+  "abv": 6.9,
+  "ibu": 40,
+  "target_fg": 1072,
+  "target_og": 1020,
+  "ebc": 130,
+  "srm": 66,
+  "ph": 4.4,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 95
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Rooibos Tea: 60g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale propino",
+        "amount": {
+          "value": 4.5,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Barley",
+        "amount": {
+          "value": 0.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Brown Malt",
+        "amount": {
+          "value": 0.5,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Crystal medium",
+        "amount": {
+          "value": 0.3,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dark Crystal",
+        "amount": {
+          "value": 0.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 1",
+        "amount": {
+          "value": 0.1,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Goldings",
+        "amount": {
+          "value": 32,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Goldings",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Bunny Chow", "Lamb Potjiekos", "Cape Malay Koesisters"],
+  "brewers_tips": "Load rooibos tea into the hot wort in a using a tea bag or muslin cloth at flame out.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

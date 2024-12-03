@@ -1,0 +1,119 @@
+{
+  "id": 387,
+  "name": "BA Radio Zombie Phone In",
+  "tagline": "Barrel Aged Imperial Stout.",
+  "first_brewed": "2018",
+  "description": "A complex, very dark beer that has been aged in bourbon barrels, giving it warming aromas, and balancing the notes of cherries, prunes, raisins and forest fruits. The mouthfeel is syrupy, the flavours are thick and sweet.",
+  "image": "387.png",
+  "abv": 14.2,
+  "ibu": 80,
+  "target_fg": 1024,
+  "target_og": 1131,
+  "ebc": 800,
+  "srm": 406,
+  "ph": 4.4,
+  "attenuation_level": 82,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 115
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Whiskey Soaked Oak Chips: 50g FV Addition, Trienzyme: 10g, Dextrose: 1.2kg"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 8.88,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Black Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Roasted Barley",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 1",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Oat Husks",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 29,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 17,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["BBQ Ribs", "Eton Mess", "Shot of Bourbon"],
+  "brewers_tips": "If you want to speed up the barrel ageing, try storing the barrel at warmer temperatures. Or even better fluctuating temperatures from cold to warm. This will increase the contraction of the wood fibres and speed up the release of its flavours. The beer losses might increase though.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

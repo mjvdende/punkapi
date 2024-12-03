@@ -1,0 +1,136 @@
+{
+  "id": 396,
+  "name": "Fight Club",
+  "tagline": "Transatlantic IPA.",
+  "first_brewed": "2019",
+  "description": "Brewed to celebrate the world's first craft beer airline, this beer is best enjoyed at altitude. As pale and hazy yellow as a transatlantic sunrise. Floral, citrus and freshly cut grass aromas fill the cabin. Orange, lemon and white grapes disembark in rapid succession, all resting on a malted fuselage. Sit back, relax and enjoy the Flight Club.",
+  "image": "396.png",
+  "abv": 4.5,
+  "ibu": 15,
+  "target_fg": 1009,
+  "target_og": 1044,
+  "ebc": 15,
+  "srm": 8,
+  "ph": 4.2,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 0,
+          "unit": "celsius"
+        },
+        "duration": 16
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Pectin Powder: 5g, Wheat flour: 60g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 3.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "15",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "80",
+        "attribute": "Dry Hop"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 3,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Dry Hop"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 2,
+          "unit": "grams"
+        },
+        "add": "40",
+        "attribute": "Dry Hop"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Packet of Nuts", "Bag of Crisps", "Ham and Cheese Toastie"],
+  "brewers_tips": "Nothing harmful will happen if this beer is consumed at sea level.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

@@ -1,0 +1,130 @@
+{
+  "id": 368,
+  "name": "Scarlet Fever (Fanzine)",
+  "tagline": "Red Rye Saison.",
+  "first_brewed": "2018",
+  "description": "A more traditional style of saison, with additions of rye, citrus peel and peppercorns.",
+  "image": "368.png",
+  "abv": 5.4,
+  "ibu": 10,
+  "target_fg": 1005,
+  "target_og": 1054,
+  "ebc": 30,
+  "srm": 15,
+  "ph": 4.2,
+  "attenuation_level": 91,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 63,
+          "unit": "celsius"
+        },
+        "duration": 80
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Amyloglucosidase: 10g, Bitter Orange Peel: 10g, Sweet Orange Peel: 10g, Pink Peppercorns: 2g, Grains of Paradise: 2g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pilsner Malt",
+        "amount": {
+          "value": 2.88,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Vienna Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Rye Malt",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Torrified Barley",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Sterling",
+        "amount": {
+          "value": 18,
+          "unit": "grams"
+        },
+        "add": "FWH",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Fuggles",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Saaz",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "East Kent Goldings",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Be-134"
+  },
+  "food_pairing": ["Stoemp", "Bouillabaisse", "Oliebol"],
+  "brewers_tips": "When using spices it is best to add them at flame out for no more than 15 minutes, too long or at too high a heat can result in unwanted bitterness.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

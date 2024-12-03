@@ -1,0 +1,134 @@
+{
+  "id": 393,
+  "name": "Pulp Patriot V3",
+  "tagline": "Raspberry Dry Hop Edition.",
+  "first_brewed": "2019",
+  "description": "A 9.5% Raspberry dry hopped NEDIPA, brewed for Fanzine January issue.",
+  "image": "393.png",
+  "abv": 9.5,
+  "ibu": 10,
+  "target_fg": 1018,
+  "target_og": 1092,
+  "ebc": 15,
+  "srm": 8,
+  "ph": 4.4,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 46
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Raspberry Juice: 1.8kg FV Addition, Milk Sugars (Lactose): 500g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.04,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 0.6,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Dry Malt Extract",
+        "amount": {
+          "value": 0.5,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 120,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Honey-Roasted Ham with Cranberry", "Sweet and Sticky BBQ Ribs", "New York Cheesecake"],
+  "brewers_tips": "The best fruit juice to use will have the pectin removed.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

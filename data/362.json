@@ -1,0 +1,156 @@
+{
+  "id": 362,
+  "name": "Alter Ego",
+  "tagline": "West Coast IPA.",
+  "first_brewed": "2018",
+  "description": "A punchy IPA with a hefty hop bill. A deft touch of caramel and toast runs alongside massive hoppy aromas of pine, mango, grapefruit and lychee. Finishing with just a hint of sweetness, this classically West Coast IPA is dry, aggressive, and puts big hop flavours front and centre.",
+  "image": "362.png",
+  "abv": 8.5,
+  "ibu": 70,
+  "target_fg": 1005,
+  "target_og": 1071,
+  "ebc": 18,
+  "srm": 9,
+  "ph": 4.6,
+  "attenuation_level": 93,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 75
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Dextrose: 120g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 5.86,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Simpsons T50",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Simcoe CO2 Extract",
+        "amount": {
+          "value": 2,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Columbus",
+        "amount": {
+          "value": 12,
+          "unit": "grams"
+        },
+        "add": "60",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 26,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Ahtanum",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Amarillo",
+        "amount": {
+          "value": 4,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Spicy Honey-Roasted Cashew Nuts", "Dhaba-Style Punjabi Lamb Curry", "Pumpkin Roulade with Ginger Buttercream"],
+  "brewers_tips": "Be careful to use fresh hops for dry hopping.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

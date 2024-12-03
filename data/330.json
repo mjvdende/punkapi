@@ -1,0 +1,150 @@
+{
+  "id": 330,
+  "name": "BA ASA Barrel #132",
+  "tagline": "Rye Aged IPA.",
+  "first_brewed": "2018",
+  "description": "Our Red Rye IPA, Albino Squid Assassin, barrel aged in rye – a rebrew of one of our most requested barrel-aged beers.",
+  "image": "cask.png",
+  "abv": 7.4,
+  "ibu": 65,
+  "target_fg": 1012,
+  "target_og": 1069,
+  "ebc": 60,
+  "srm": 30,
+  "ph": 4.2,
+  "attenuation_level": 83,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 50
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Oak Chips in Whiskey: 50g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 4.8,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal",
+        "amount": {
+          "value": 0.36,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Carafa Special Type 1",
+        "amount": {
+          "value": 0.06,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Rye Malt",
+        "amount": {
+          "value": 0.48,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "70",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 20,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 5,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 30,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 15,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Chinook",
+        "amount": {
+          "value": 80,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 60,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Chickpea Curry", "Orange Roast Chicken", "Turkish Delight"],
+  "brewers_tips": "Allow the fermentation to go as far as possible. Soak oak chips in whisky to get the barrel aged characteristic.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

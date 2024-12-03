@@ -1,0 +1,141 @@
+{
+  "id": 392,
+  "name": "Porridge Head (Fanzine)",
+  "tagline": "Oat and Milk Pale Ale.",
+  "first_brewed": "2019",
+  "description": "A session strength pale ale with a huge, rounded mouthfeel, on which the hopload is built, brewed for Fanzine January issue.",
+  "image": "392.png",
+  "abv": 4.6,
+  "ibu": 10,
+  "target_fg": 1018,
+  "target_og": 1054,
+  "ebc": 15,
+  "srm": 8,
+  "ph": 4.6,
+  "attenuation_level": 67,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 66,
+          "unit": "celsius"
+        },
+        "duration": 45
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 21,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Milk Sugars (Lactose): 360g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 1.56,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Wheat Malt",
+        "amount": {
+          "value": 1.56,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Vienna Malt",
+        "amount": {
+          "value": 0.24,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Flaked Oat Malt",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Oat Husks",
+        "amount": {
+          "value": 0.12,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Nelson Sauvin",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 10,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Centennial",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Nelson Sauvin",
+        "amount": {
+          "value": 40,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Bo Ssam", "Poutine", "Jam Doughnut"],
+  "brewers_tips": "Add heather honey to your boil to give this brew even more of a porridgey feel!",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

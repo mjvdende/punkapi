@@ -1,0 +1,186 @@
+{
+  "id": 376,
+  "name": "Red & Dead (Fanzine)",
+  "tagline": "Imperial Red IPA.",
+  "first_brewed": "2018",
+  "description": "A Fanzine release, this imperial red IPA is part of a Halloween inspired issue. Big rounded sweet character drawn from a range of malt varieties, while an apple-like character is hinted at through the fermentation profile.",
+  "image": "376.png",
+  "abv": 8.0,
+  "ibu": 65,
+  "target_fg": 1015,
+  "target_og": 1076,
+  "ebc": 75,
+  "srm": 38,
+  "ph": 4.2,
+  "attenuation_level": 80,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 64,
+          "unit": "celsius"
+        },
+        "duration": 35
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": 19,
+        "unit": "celsius"
+      }
+    },
+    "twist": null
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Pale Ale",
+        "amount": {
+          "value": 3.55,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "CaraRed Malt",
+        "amount": {
+          "value": 1.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich Malt",
+        "amount": {
+          "value": 0.83,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Extra Dark Crystal Malt",
+        "amount": {
+          "value": 0.09,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Medium Crystal Malt",
+        "amount": {
+          "value": 0.55,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Hallertauer Taurus",
+        "amount": {
+          "value": 12,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "Bitter"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 6,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 6,
+          "unit": "grams"
+        },
+        "add": "10",
+        "attribute": "Flavour"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 9,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 9,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Huell Melon",
+        "amount": {
+          "value": 15,
+          "unit": "grams"
+        },
+        "add": "0",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Simcoe",
+        "amount": {
+          "value": 71,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Citra",
+        "amount": {
+          "value": 71,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Cascade",
+        "amount": {
+          "value": 71,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Amarillo",
+        "amount": {
+          "value": 47,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      },
+      {
+        "name": "Huell Melon",
+        "amount": {
+          "value": 47,
+          "unit": "grams"
+        },
+        "add": "Dry Hop",
+        "attribute": "Aroma"
+      }
+    ],
+    "yeast": "Wyeast 1272"
+  },
+  "food_pairing": ["Toffee Apples", "Pumpkin Pie", "Sugared Doughnuts"],
+  "brewers_tips": "The malt backbone of this brew would easily allow for creating a dank red ale by changing the hops for West Coast hops, columbus, chinook, cascade and centennial.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}

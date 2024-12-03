@@ -1,0 +1,98 @@
+{
+  "id": 415,
+  "name": "Aplomb Bomb",
+  "tagline": "Scottish Sour Ale.",
+  "first_brewed": "2018",
+  "description": "Taking the classic pairing of plums and vanilla and amplifying the pairing by incorporating them in to a Scottish sour ale.",
+  "image": "415.png",
+  "abv": 7.0,
+  "ibu": 15,
+  "target_fg": 1004,
+  "target_og": 1058,
+  "ebc": 10,
+  "srm": null,
+  "ph": null,
+  "attenuation_level": null,
+  "volume": {
+    "value": 20,
+    "unit": "litres"
+  },
+  "boil_volume": {
+    "value": 25,
+    "unit": "litres"
+  },
+  "method": {
+    "mash_temp": [
+      {
+        "temp": {
+          "value": 65,
+          "unit": "celsius"
+        },
+        "duration": 55
+      }
+    ],
+    "fermentation": {
+      "temp": {
+        "value": null,
+        "unit": "celsius"
+      }
+    },
+    "twist": "Vanilla Tea: 2g"
+  },
+  "ingredients": {
+    "malt": [
+      {
+        "name": "Weyernmann Pils",
+        "amount": {
+          "value": 1.5,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Weyernmann Pale Wheat",
+        "amount": {
+          "value": 0.2,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Munich",
+        "amount": {
+          "value": 0.1,
+          "unit": "kilograms"
+        }
+      },
+      {
+        "name": "Weyernmann Acidulated Malt",
+        "amount": {
+          "value": 0.1,
+          "unit": "kilograms"
+        }
+      }
+    ],
+    "hops": [
+      {
+        "name": "Magnum",
+        "amount": {
+          "value": 0.5,
+          "unit": "grams"
+        },
+        "add": "90",
+        "attribute": "14% Alpha"
+      },
+      {
+        "name": "H. Blanc",
+        "amount": {
+          "value": 6,
+          "unit": "grams"
+        },
+        "add": "Flame Out",
+        "attribute": "10% Alpha"
+      }
+    ],
+    "yeast": "House Brett Blend"
+  },
+  "food_pairing": ["Stichelton Creamy Blue Cheese", "Tiramisu", "5-Spice Duck Noodles"],
+  "brewers_tips": "Experiment with hot and cold extraction of the vanilla to see which method suits your vanilla pods best. A combination of both might yield the best results.",
+  "contributed_by": "Alexander Ivanovsky <alxiw>"
+}
