@@ -119,7 +119,6 @@ def ids_filter(val: Optional[str], db: List[Dict]) -> List[Dict]:
     ]
 
 
-# Применяем каррирование
 beer_name_filter = curry(beer_name_filter)
 brewed_before_filter = curry(brewed_before_filter)
 brewed_after_filter = curry(brewed_after_filter)

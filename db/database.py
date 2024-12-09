@@ -21,25 +21,3 @@ def load_data_from_directory(directory_path):
 def get_db():
     return load_data_from_directory(DIRECTORY_PATH)
 
-
-def get_short_db():
-    full_db = load_data_from_directory(DIRECTORY_PATH)
-    short_db = list()
-    for beer in full_db:
-        short_beer = dict()
-        short_beer["id"] = beer.get("id")
-        short_beer["name"] = beer.get("name")
-        short_beer["tagline"] = beer.get("tagline")
-        short_beer["first_brewed"] = beer.get("first_brewed")
-        short_beer["description"] = beer.get("description")
-        short_beer["image"] = beer.get("image")
-        short_beer["abv"] = beer.get("abv")
-        short_beer["ibu"] = beer.get("ibu")
-        short_beer["ebc"] = beer.get("ebc")
-        short_beer["food_pairing"] = beer.get("food_pairing")
-        short_db.append(short_beer)
-
-    return short_db
-
-
-

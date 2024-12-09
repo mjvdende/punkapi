@@ -38,7 +38,6 @@ def get_beers_with_options(db: List[Dict], opts: Dict) -> List[Dict]:
     food = opts.get('food')
 
 
-    # Список фильтров, которые будут применены
     filter_functions = [
         ids_filter(ids),
         beer_name_filter(beer_name),

@@ -35,8 +35,6 @@ def paginate(db: List, page: int, per_page: int) -> List:
     page_number = int(page) if page else 1
     per_page = int(per_page) if per_page else 30
 
-    # Вычисляем смещение
     offset = (page_number - 1) * per_page
 
-    # Возвращаем срез данных
     return db[offset:offset + per_page]

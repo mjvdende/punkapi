@@ -26,7 +26,8 @@ def string_match(string: str, predicate: str) -> bool:
 
     return parsed_predicate in parsed_string
 
-# Примеры использования
-# print(string_fuzzy_match("Hello World", "Hlo Wrld"))   # True
-# print(string_match("Hello World", "Hello"))            # True
-# print(string_match("Hello World", "Hello_"))           # False
+
+# Usage
+# string_fuzzy_match("Hello World", "Hlo Wrld") – True
+# string_match("Hello World", "Hello") – True
+# string_match("Hello World", "Hello_") – False

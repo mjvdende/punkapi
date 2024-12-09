@@ -2,15 +2,15 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
-from service.routes import api_router
+from service.router import api_router
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # разрешаем все источники
-    allow_methods=["GET"], # разрешаем только метод GET
-    allow_headers=["*"], # разрешаем все заголовки
+    allow_origins=["*"], # allow all sources
+    allow_methods=["GET"], # allow only GET method
+    allow_headers=["*"], # allow all header
 )
 
 app.include_router(api_router, prefix="/v3")

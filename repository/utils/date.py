@@ -21,6 +21,6 @@ def is_date_after(brew_date: str, predicate: str) -> bool:
     return parsed_brew_date > parsed_predicate
 
 
-# Примеры использования
-# print(is_date_before("01/2020", "02-2020"))  # True
-# print(is_date_after("01/2020", "02-2020"))   # False
+# Usage
+# is_date_before("01/2020", "02-2020") – True
+# is_date_after("01/2020", "02-2020") – False

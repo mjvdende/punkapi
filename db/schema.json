@@ -18,7 +18,7 @@
       "type": "string"
     },
     "image": {
-      "type": ["string"]
+      "type": "string"
     },
     "abv": {
       "type": "number"
@@ -194,17 +194,12 @@
     }
   },
   "required": [
+    "id",
     "name",
     "tagline",
-    "first_brewed",
     "description",
+    "first_brewed",
     "abv",
-    "ibu",
-    "target_fg",
-    "target_og",
-    "ebc",
-    "srm",
-    "ph",
-    "attenuation_level"
+    "image"
   ]
 }

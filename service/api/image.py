@@ -18,7 +18,7 @@ async def image(filename: str = Path(...)):
                 "message": "Image extension should be .png"
             }
         )
-    print(f"API – /img/{{filename}} – {filename}")
+    print(f"API – /images/{filename}")
 
     file_path = os.path.join(IMAGE_FOLDER, filename)
     if not os.path.exists(file_path):
