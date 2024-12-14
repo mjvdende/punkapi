@@ -1,4 +1,4 @@
-from typing import List, Optional, Annotated
+from typing import List, Optional
 
 from fastapi import Query
 from pydantic import BaseModel, Field
@@ -22,7 +22,7 @@ class BeersSchema(BaseModel):
     food: Optional[str] = None
 
 
-async def beers(params: Annotated[BeersSchema, Query()]):
+async def beers(params: BeersSchema = Query(...)):
     options = dict(params)
     print(f"API – /beers, {options}")
 
