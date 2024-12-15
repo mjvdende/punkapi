@@ -6,7 +6,7 @@ A [FastAPI](https://github.com/fastapi/fastapi)-based project that serves as a d
 
 #### Base URL
 
-`https://punkapi-alxiw.amvera.io/v3/`
+`https://punkapi.online/v3/`
 
 The project is currently running on a remote server. To run it locally, access it using `localhost:5000`.
 
