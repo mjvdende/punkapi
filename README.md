@@ -6,11 +6,9 @@ A [FastAPI](https://github.com/fastapi/fastapi)-based project that serves as a d
 
 ## Usage
 
-### Base URL
-
 ### `https://punkapi.online/v3/`
 
-The project is currently running on a remote server. To run it locally, access it using `localhost:5000`.
+This is the **BASE URL**. Below are several endpoints and parameters for retrieving data.
 
 ### Endpoints
 
