@@ -2,22 +2,25 @@
 
 A [FastAPI](https://github.com/fastapi/fastapi)-based project that serves as a digital archive of BrewDog's [DIY Dog](https://drink.brewdog.com/uk/diy-dog) beers. It provides an API to access detailed information about each beer, including its recipe and associated image. The catalog data was initially extracted from a PDF document and transformed into JSON and PNG files. These files are placed in `data` and `img` folders according to their sequential number within the catalog. So, PunkAPI offers an interface to interact with this data. The API endpoints and their functionalities are outlined below.
 
+<img src="artwork-01.jpg" alt="drawing" width="300"/>
+<img src="artwork-02.jpg" alt="drawing" width="300"/>
+
 ## Usage
 
-#### Base URL
+### Base URL
 
-`https://punkapi.online/v3/`
+### `https://punkapi.online/v3/`
 
 The project is currently running on a remote server. To run it locally, access it using `localhost:5000`.
 
-#### Endpoints
+### Endpoints
 
-* `/beers/random` – retrieve a random beer
-* `/beers/{id}` – retrieve a single beer by its id
-* `/beers?page={page_number}` – retrieve a list of all the beers in short case with paging, by default 30 items per page
-* `/images/{id}.png` – retrieve the image according to specified beer id
+* `beers/random` – retrieve a random beer
+* `beers/{id}` – retrieve a single beer by its id
+* `beers?page={page_number}` – retrieve a list of all the beers in short case with paging, by default 30 items per page
+* `images/{id}.png` – retrieve the image according to specified beer id
 
-#### Optional query parameters for `/beers`
+### Optional query parameters for `/beers`
 
 * `per_page` – specify the number of items to return per page, the value can range from 10 to 80, 30 by default
 * `ids={id,id,...}` – retrieve a list of beers that match the specified ids
@@ -32,7 +35,7 @@ The project is currently running on a remote server. To run it locally, access i
 * `ebc_lt={number}` – retrieve a list of beers that have an EBC less than the specified number
 * `food={string}` – retrieve a list of beers that go well with the specified food
 
-#### Example of API response
+### Example of API response
 
 E.g. beer #366: 
 `https://punkapi.online/v3/beers/366`
