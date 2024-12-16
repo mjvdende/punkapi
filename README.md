@@ -32,6 +32,138 @@ The project is currently running on a remote server. To run it locally, access i
 * `ebc_lt={number}` – retrieve a list of beers that have an EBC less than the specified number
 * `food={string}` – retrieve a list of beers that go well with the specified food
 
+#### Example of API response
+
+E.g. beer #366: 
+`https://punkapi.online/v3/beers/366`
+
+<details>
+<summary>JSON format API response example</summary>
+<br>
+
+```json
+{
+	"id": 366,
+	"name": "Lost Lager",
+	"tagline": "Dry-Hopped Pilsner.",
+	"first_brewed": "2018",
+	"description": "A pilsner that combines the light, crisp and clean lager profile provided by Weihenstephan's house yeast, with the vibrant citrus and stonefruit aromas associated with new German hop Saphir. This lager is easy-going but has subtle depths; toast, hints of spice and a zesty lime marmalade character.",
+	"image": "366.png",
+	"abv": 4.7,
+	"ibu": 37,
+	"target_fg": 1006,
+	"target_og": 1042,
+	"ebc": 5,
+	"srm": 3,
+	"ph": 4.4,
+	"attenuation_level": 86,
+	"volume": {
+		"value": 20,
+		"unit": "litres"
+	},
+	"boil_volume": {
+		"value": 25,
+		"unit": "litres"
+	},
+	"method": {
+		"mash_temp": [
+			{
+				"temp": {
+					"value": 65,
+					"unit": "celsius"
+				},
+				"duration": 65
+			}
+		],
+		"fermentation": {
+			"temp": {
+				"value": 11,
+				"unit": "celsius"
+			}
+		},
+		"twist": "Amyloglucosidase: 1g"
+	},
+	"ingredients": {
+		"malt": [
+			{
+				"name": "Pilsner Malt",
+				"amount": {
+					"value": 3.36,
+					"unit": "kilograms"
+				}
+			},
+			{
+				"name": "Carapils Malt",
+				"amount": {
+					"value": 0.24,
+					"unit": "kilograms"
+				}
+			}
+		],
+		"hops": [
+			{
+				"name": "Hallertauer Taurus",
+				"amount": {
+					"value": 8,
+					"unit": "grams"
+				},
+				"add": "60",
+				"attribute": "Bitter"
+			},
+			{
+				"name": "Select Spalter",
+				"amount": {
+					"value": 15,
+					"unit": "grams"
+				},
+				"add": "20",
+				"attribute": "Flavour"
+			},
+			{
+				"name": "Select Spalter",
+				"amount": {
+					"value": 15,
+					"unit": "grams"
+				},
+				"add": "10",
+				"attribute": "Aroma"
+			},
+			{
+				"name": "Saphir",
+				"amount": {
+					"value": 30,
+					"unit": "grams"
+				},
+				"add": "0",
+				"attribute": "Aroma"
+			},
+			{
+				"name": "Saphir",
+				"amount": {
+					"value": 30,
+					"unit": "grams"
+				},
+				"add": "Dry Hop",
+				"attribute": "Aroma"
+			}
+		],
+		"yeast": "W34/70"
+	},
+	"food_pairing": [
+		"Vietnamese Pho",
+		"Buffalo Chicken Wings",
+		"Sashimi"
+	],
+	"brewers_tips": "Temperature control is extremely important for Lager, fermentation temperature around 10-12°C and a maturation period of 3-4 weeks at 1.5-2°C is ideal.",
+	"contributed_by": "Alexander Ivanovsky <alxiw>"
+}
+```
+
+
+</details>
+
+
+
 ## In addition
 
 The [old project](https://github.com/sammdec/punkapi), which was active until May 1, 2024, has been discontinued. I express my sincere gratitude to its developers and contributors. To continue providing access to BrewDog's DIY Dog beer catalogue as an API, I've created a new version using modern development practices and incorporates the latest beer data. So, that's why the base URL now includes the "v3" prefix. All JSON elements and their corresponding images from the old project have been migrated, reorganized, and complemented with missing information to ensure complete synchronization with the [latest catalogue](https://brewdogmedia.s3.eu-west-2.amazonaws.com/docs/2019+DIY+DOG+-+V8.pdf). As a result, all 415 beers are available. You can explore the list of beer names in the dropdown menu below.
