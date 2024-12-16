@@ -2,8 +2,7 @@
 
 A [FastAPI](https://github.com/fastapi/fastapi)-based project that serves as a digital archive of BrewDog's [DIY Dog](https://drink.brewdog.com/uk/diy-dog) beers. It provides an API to access detailed information about each beer, including its recipe and associated image. The catalog data was initially extracted from a PDF document and transformed into JSON and PNG files. These files are placed in `data` and `img` folders according to their sequential number within the catalog. So, PunkAPI offers an interface to interact with this data. The API endpoints and their functionalities are outlined below.
 
-<img src="artwork-01.jpg" alt="drawing" width="300"/>
-<img src="artwork-02.jpg" alt="drawing" width="300"/>
+<img src="artwork-01.jpg" alt="drawing" width="300"/> <img src="artwork-02.jpg" alt="drawing" width="300"/>
 
 ## Usage
 
