@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 
 from repository.repository import beers as punk_beers
 
-DATE_PATTERN = r"^(0[0-9]|1[0-9])-\d{4}$"
+DATE_PATTERN = r"^((0[1-9]|1[0-2])-)?\d{4}$"
 
 class BeersSchema(BaseModel):
     page: int = Field(gt=0)

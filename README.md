@@ -22,8 +22,8 @@ This is the **BASE URL**. Below are several endpoints and parameters for retriev
 * `per_page` – specify the number of items to return per page, the value can range from 10 to 80, 30 by default
 * `ids={id,id,...}` – retrieve a list of beers that match the specified ids
 * `beer_name={string}` – retrieve a list of beers that match the specified string
-* `brewed_before={string}` – retrieve a list of beers that have brewed date less than the specified date
-* `brewed_after={string}` – retrieve a list of beers that have brewed date greater than the specified date
+* `brewed_before={string}` – retrieve a list of beers that have brewed date less than the specified date, format: MM-YYYY or YYYY
+* `brewed_after={string}` – retrieve a list of beers that have brewed date greater than the specified date, format: MM-YYYY or YYYY
 * `abv_gt={number}` – retrieve a list of beers that have an ABV greater than the specified number
 * `abv_lt={number}` – retrieve a list of beers that have an ABV less than the specified number
 * `ibu_gt={number}` – retrieve a list of beers that have an IBU greater than the specified number
