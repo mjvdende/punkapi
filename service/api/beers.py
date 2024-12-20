@@ -12,16 +12,16 @@ class BeersSchema(BaseModel):
     page: int = Field(gt=0)
     per_page: int = Field(30, ge=10, le=80)
     beer_name: Optional[str] = None
+    ids: Optional[str] = Field(None, pattern=IDS_PATTERN)
+    brewed_before: Optional[str] = Field(None, pattern=DATE_PATTERN)
+    brewed_after: Optional[str] = Field(None, pattern=DATE_PATTERN)
     abv_gt: Optional[float] = None
     abv_lt: Optional[float] = None
     ibu_gt: Optional[float] = None
     ibu_lt: Optional[float] = None
     ebc_gt: Optional[float] = None
     ebc_lt: Optional[float] = None
-    brewed_before: Optional[str] = Field(None, pattern=DATE_PATTERN)
-    brewed_after: Optional[str] = Field(None, pattern=DATE_PATTERN)
     food: Optional[str] = None
-    ids: Optional[str] = Field(None, pattern=IDS_PATTERN)
 
 
 async def beers(params: BeersSchema = Query(...)):
