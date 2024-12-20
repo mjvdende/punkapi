@@ -11,7 +11,6 @@ from repository.dao.filters import ids_filter
 
 
 def get_beer_by_id(val: Optional[int], db: List[Dict]) -> Optional[Dict]:
-    """Фильтрует список, возвращая элементы, у которых id равен val."""
     if val is None:
         return None
 
@@ -24,7 +23,6 @@ def get_beer_by_id(val: Optional[int], db: List[Dict]) -> Optional[Dict]:
 
 
 def get_beers_with_options(db: List[Dict], opts: Dict) -> List[Dict]:
-    """Применяет набор фильтров к базе данных."""
     ids = opts.get('ids')
     beer_name = opts.get('beer_name')
     brewed_before = opts.get('brewed_before')

@@ -6,11 +6,12 @@ from pydantic import BaseModel, Field
 from repository.repository import beers as punk_beers
 
 DATE_PATTERN = r"^((0[1-9]|1[0-2])-)?\d{4}$"
-IDS_PATTERN = r"^(?:\d|\d\d|[1-3]\d\d|4[0-1][0-5])(,(?:\d|\d\d|[1-3]\d\d|4[0-1][0-5]))*$"
+IDS_PATTERN = r"^(?:\d|\d\d|[1-3]\d\d|40[0-9]|41[0-5])(,(?:\d|\d\d|[1-3]\d\d|40[0-9]|41[0-5]))*$"
 
 class BeersSchema(BaseModel):
     page: int = Field(gt=0)
     per_page: int = Field(30, ge=10, le=80)
+    beer_name: Optional[str] = None
     abv_gt: Optional[float] = None
     abv_lt: Optional[float] = None
     ibu_gt: Optional[float] = None
@@ -19,7 +20,6 @@ class BeersSchema(BaseModel):
     ebc_lt: Optional[float] = None
     brewed_before: Optional[str] = Field(None, pattern=DATE_PATTERN)
     brewed_after: Optional[str] = Field(None, pattern=DATE_PATTERN)
-    beer_name: Optional[str] = None
     food: Optional[str] = None
     ids: Optional[str] = Field(None, pattern=IDS_PATTERN)
 

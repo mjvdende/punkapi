@@ -97,7 +97,6 @@ def ebc_lt_filter(val, database):
 
 
 def food_filter(val: Optional[str], db: List[Dict]) -> List[Dict]:
-    """Фильтрует список, возвращая элементы, у которых food_pairing соответствует val."""
     if val is None:
         return db
 
@@ -108,7 +107,6 @@ def food_filter(val: Optional[str], db: List[Dict]) -> List[Dict]:
 
 
 def ids_filter(val: Optional[str], db: List[Dict]) -> List[Dict]:
-    """Фильтрует список, возвращая элементы, id которых содержится в val."""
     if val is None:
         return db
 
