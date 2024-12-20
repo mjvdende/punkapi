@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 from repository.repository import beers as punk_beers
 
 DATE_PATTERN = r"^((0[1-9]|1[0-2])-)?\d{4}$"
+IDS_PATTERN = r"^(?:\d|\d\d|[1-3]\d\d|4[0-1][0-5])(,(?:\d|\d\d|[1-3]\d\d|4[0-1][0-5]))*$"
 
 class BeersSchema(BaseModel):
     page: int = Field(gt=0)
@@ -20,6 +21,7 @@ class BeersSchema(BaseModel):
     brewed_after: Optional[str] = Field(None, pattern=DATE_PATTERN)
     beer_name: Optional[str] = None
     food: Optional[str] = None
+    ids: Optional[str] = Field(None, pattern=IDS_PATTERN)
 
 
 async def beers(params: BeersSchema = Query(...)):
