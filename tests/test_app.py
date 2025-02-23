@@ -14,4 +14,6 @@ async def test_v3_endpoint():
     async with AsyncClient(base_url="http://localhost:5000") as ac:
         response = await ac.get("/v3/beers/random")
     assert response.status_code == 200
-    # Add more assertions based on the expected response from /v3 endpoint
+
+
+
