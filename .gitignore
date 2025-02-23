@@ -9,3 +9,7 @@
 .externalNativeBuild
 .kotlin
 /pdf
+
+__pycache__/
+*.pyc
+*.pyo
