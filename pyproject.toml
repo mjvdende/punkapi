@@ -1,0 +1,36 @@
+[project]
+name = "punkapi"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "uvicorn (==0.32.1)",
+    "fastapi (==0.115.5)",
+    "pydantic (==2.10.2)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+httpx = "^0.28.1"
+pytest-asyncio = "^0.25.3"
+
+[tool.poetry]
+exclude = [
+    "tests/*",
+    "docs/*",
+    "examples/*",
+    ".gitignore",
+    ".git/*",
+    ".github/*",
+    ".venv/*",
+    "README.md"
+]
