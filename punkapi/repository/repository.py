@@ -1,8 +1,8 @@
 import random
 from typing import Optional, Dict, List
 
-from db.database import get_db
-from repository.dao.dao import get_beer_by_id, get_beers_with_options
+from punkapi.db.database import get_db
+from punkapi.repository.dao.dao import get_beer_by_id, get_beers_with_options
 
 full_db = get_db()
 sorted_db = sorted(get_db(), key=lambda x: x['id'])

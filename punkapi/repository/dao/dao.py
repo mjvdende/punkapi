@@ -1,13 +1,13 @@
 from functools import reduce
 from typing import List, Dict, Optional
 
-from repository.dao.filters import abv_gt_filter, abv_lt_filter
-from repository.dao.filters import beer_name_filter
-from repository.dao.filters import brewed_before_filter, brewed_after_filter
-from repository.dao.filters import ebc_gt_filter, ebc_lt_filter
-from repository.dao.filters import food_filter
-from repository.dao.filters import ibu_gt_filter, ibu_lt_filter
-from repository.dao.filters import ids_filter
+from punkapi.repository.dao.filters import abv_gt_filter, abv_lt_filter
+from punkapi.repository.dao.filters import beer_name_filter
+from punkapi.repository.dao.filters import brewed_before_filter, brewed_after_filter
+from punkapi.repository.dao.filters import ebc_gt_filter, ebc_lt_filter
+from punkapi.repository.dao.filters import food_filter
+from punkapi.repository.dao.filters import ibu_gt_filter, ibu_lt_filter
+from punkapi.repository.dao.filters import ids_filter
 
 
 def get_beer_by_id(val: Optional[int], db: List[Dict]) -> Optional[Dict]:

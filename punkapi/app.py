@@ -8,7 +8,7 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
 import os
 
-from service.router import api_router
+from punkapi.service.router import api_router
 
 app = FastAPI()
 

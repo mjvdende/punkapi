@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from fastapi.params import Path
 
-from repository.repository import beer as punk_beer, beers_size
+from punkapi.repository.repository import beer as punk_beer, beers_size
 
 size = beers_size()
 

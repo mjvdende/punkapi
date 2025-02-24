@@ -2,7 +2,7 @@ import json
 import os
 from collections import OrderedDict
 
-DIRECTORY_PATH = "data"
+DIRECTORY_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'resources', 'data')
 
 
 def load_data_from_directory(directory_path):

@@ -1,5 +1,5 @@
 from fastapi.responses import JSONResponse
-from repository.repository import random_beer as punk_random
+from punkapi.repository.repository import random_beer as punk_random
 
 
 async def random_beer():

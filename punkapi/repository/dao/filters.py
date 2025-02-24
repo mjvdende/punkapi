@@ -1,7 +1,7 @@
-from repository.utils.curry import curry
-from repository.utils.date import is_date_after
-from repository.utils.date import is_date_before
-from repository.utils.string import string_fuzzy_match, string_match
+from punkapi.repository.utils.curry import curry
+from punkapi.repository.utils.date import is_date_after
+from punkapi.repository.utils.date import is_date_before
+from punkapi.repository.utils.string import string_fuzzy_match, string_match
 
 from typing import List, Dict, Optional
 

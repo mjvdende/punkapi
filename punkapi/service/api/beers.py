@@ -3,7 +3,7 @@ from typing import List, Optional
 from fastapi import Query
 from pydantic import BaseModel, Field
 
-from repository.repository import beers as punk_beers
+from punkapi.repository.repository import beers as punk_beers
 
 DATE_PATTERN = r"^((0[1-9]|1[0-2])-)?\d{4}$"
 IDS_PATTERN = r"^(?:\d|\d\d|[1-3]\d\d|40[0-9]|41[0-5])(,(?:\d|\d\d|[1-3]\d\d|40[0-9]|41[0-5]))*$"

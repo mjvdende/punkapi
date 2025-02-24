@@ -3,7 +3,7 @@ from fastapi.responses import FileResponse
 import os
 
 ALLOWED_EXTENSIONS = {'png'}
-IMAGE_FOLDER = 'img'
+IMAGE_FOLDER = os.path.join(os.path.dirname(__file__), '..', '..', 'resources', 'img')
 
 def allowed_file(filename: str) -> bool:
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
