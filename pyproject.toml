@@ -29,6 +29,7 @@ build-backend = "poetry.core.masonry.api"
 pytest = "^8.3.4"
 httpx = "^0.28.1"
 pytest-asyncio = "^0.25.3"
+pytest-cov = "^6.0.0"
 
 [tool.poetry]
 exclude = [
@@ -44,3 +45,18 @@ exclude = [
 
 [tool.pytest.ini_options]
 asyncio_default_fixture_loop_scope = "session"
+
+[tool.coverage.run]
+source = ["punkapi"]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "pass",
+    "raise ImportError",
+]

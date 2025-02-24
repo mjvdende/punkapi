@@ -17,5 +17,7 @@ __pycache__/
 dist/
 build/
 *.out
+.coverage
 
 locust_report.html
+htmlcov/

@@ -43,6 +43,7 @@ async def test_invalid_number_format(client):
 @pytest.mark.asyncio(loop_scope="session")
 async def test_multiple_filters(client):
     response = await client.get("/beers", params={
+        "page": "1",
         "abv_gt": "5",
         "ibu_gt": "30",
         "per_page": "20"
