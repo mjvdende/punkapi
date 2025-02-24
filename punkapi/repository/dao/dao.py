@@ -23,6 +23,9 @@ def get_beer_by_id(val: Optional[int], db: List[Dict]) -> Optional[Dict]:
 
 
 def get_beers_with_options(db: List[Dict], opts: Dict) -> List[Dict]:
+    page = opts.get('page', 1)
+    per_page = opts.get('per_page')
+
     ids = opts.get('ids')
     beer_name = opts.get('beer_name')
     brewed_before = opts.get('brewed_before')
@@ -50,4 +53,13 @@ def get_beers_with_options(db: List[Dict], opts: Dict) -> List[Dict]:
         food_filter(food),
     ]
 
-    return reduce(lambda acc, f: f(acc), filter_functions, db)
+    # Apply all filters
+    filtered_beers = reduce(lambda acc, f: f(acc), filter_functions, db)
+
+    # Apply pagination if parameters are present
+    if per_page:
+        start_idx = (page - 1) * per_page
+        end_idx = start_idx + per_page
+        return filtered_beers[start_idx:end_idx]
+
+    return filtered_beers
