@@ -1,13 +1,33 @@
-## Pre-requistes
+# Building and testing Punk API
+
+## Prerequisites
 poetry
 python
 
-## Run app
+## Activate poetry shell
+```shell
+eval $(poetry env activate)  
 ```
-poetry run python punkapi/app.py
+
+## Run app
+```shell
+python punkapi/app.py
 ```
 
 ## Test
+locally running tests the app is started autmatically
+
+```shell
+pytest
 ```
-poetry run pytest
+
+With coverage report generated
+
+```shell
+pytest --cov=punkapi --cov-report=html
+```
+
+## Performance test
+```shell
+locust --headless -u 5 -r 1 -t 30s --html locust_report.html
 ```

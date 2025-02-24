@@ -45,6 +45,12 @@ exclude = [
 
 [tool.pytest.ini_options]
 asyncio_default_fixture_loop_scope = "session"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+markers = [
+    "unit: marks tests as unit tests",
+    "api: marks tests as API tests",
+]
 
 [tool.coverage.run]
 source = ["punkapi"]
