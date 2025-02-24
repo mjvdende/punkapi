@@ -8,6 +8,6 @@ async def test_root(client):
 
 @pytest.mark.asyncio(loop_scope="session")
 async def test_v3_endpoint(client):
-    response = await client.get("/v3/beers/random")
+    response = await client.get("/beers/random")
     assert response.status_code == 200
 

@@ -8,7 +8,7 @@ from punkapi.app import app
 
 @pytest.fixture(scope="session")
 def base_url():
-    return "http://localhost:5001"
+    return "http://localhost:5001/v3"
 
 @pytest_asyncio.fixture(scope="session")
 async def client(base_url):
