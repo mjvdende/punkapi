@@ -16,3 +16,6 @@ __pycache__/
 
 dist/
 build/
+*.out
+
+locust_report.html
